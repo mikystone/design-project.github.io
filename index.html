@@ -1,0 +1,3041 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>UI Kit • TFV</title>
+		<meta name="description" content="UI Kit, TFVsa" />
+		<meta name="keywords" content="UI, icons, CSS, plugins" />
+		<meta name="author" content="MM" />
+		<link rel="shortcut icon" href="images/favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+        <link rel="stylesheet" type="text/css" href="css/code.css" />
+        <link rel="stylesheet" type="text/css" href="css/icons.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+		<script src="js/modernizr.custom.js"></script>
+        <script src="smooth-scroll-master/dist/js/smooth-scroll.js"></script>
+	</head>
+	<body>
+		<div class="container">
+
+			<div class="cbp-af-header">
+				<div class="cbp-af-inner">
+					<h1>UI Kit</h1>
+                    <span>alpha</span>
+					<nav>
+						<a data-scroll href="#website">Estrutura</a>
+						<a data-scroll href="#icons">Icons</a>
+						<a data-scroll href="#cores">Cores</a>
+						<a data-scroll href="#css">CSS</a>
+					</nav>
+				</div>
+			</div>
+
+			<header class="clearfix">
+				<span>UI Kit • TFVsa <span class="bp-icon bp-icon-about" data-content="Esta é uma breve explicação de elementos, estilos e simbologia usadas no website triPoint."></span></span>
+				<h1>Layout, Regras CSS e Icons</h1>
+				<nav>
+					<a href="http://prototipos.ambrozio.net/" class="bp-icon bp-icon-prev" data-info="Voltar"><span>Voltar</span></a>
+					<!--a href="" class="bp-icon bp-icon-next" data-info="next Blueprint"><span>Next Blueprint</span></a-->
+					<!--<a href="http://tympanus.net/codrops/?p=15321" class="bp-icon bp-icon-drop" data-info="back to the Codrops article"><span>back to the Codrops article</span></a>-->
+					<a href="http://webdocs.tfv.pt/" class="bp-icon bp-icon-archive" data-info="Ir para Documentação"><span>Ir para Documentação</span></a>
+				</nav>
+			</header>	
+			<div class="main">
+				
+                <section id="website">
+                    <div>
+                        <h2>Estrutura website</h2>
+
+                        <div class="ui-legenda">
+                            <span class="ui-legenda-structure"></span> <span class="ui-legenda-label">Estrutura</span> 
+                            <span class="ui-legenda-client"></span> <span class="ui-legenda-label">Cliente</span>
+                        </div>
+
+                        <div class="header-tripoint">
+                            <span class="structure-label">Header</span>
+                            <label class="logotipo-tripoint">logotipo.png</label>
+                            <label class="login-tripoint structure-tripoint pull-right"><span class="green">login</span> / <span class="red">Registar</span></label>
+                            <label class="headercontent-tripoint pull-right">triPoint."HeaderContent"</label>
+                            <div class="structure-tripoint">Menu-bar</div>
+                        </div>
+                        <div class="body-tripoint">
+                            <span class="structure-label">Body</span>
+                            <div class="item-tripoint"><b>(ordem -)</b> multimédia.triPoint</div>
+                            <div class="structure-tripoint">@renderBody(conteudo do site)</div>
+                            <div class="item-tripoint"><b>(ordem +)</b> multimédia.triPoint</div>
+                        </div>
+                        <div class="footer-tripoint">
+                            <span class="structure-label">Footer</span>
+                            triPoint."Footer"
+                        </div>
+
+                        
+                    </div>
+                </section>
+                <section id="icons">
+                    <div class="">
+                        <h2>Icons</h2>
+                        <p>Lista de todos os icons disponíveis no website triPoint.<br>
+                        <small class="ui-updated"><i>Updated v3.9.14</i></small>
+                        </p>
+
+                        <div class="wrapper-icons clearfix">
+                            <div class="ui-card-icon" style="padding: 6px;">
+                                <i class="icon-loading-large"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-loading"></i>
+                            </div>
+                            <div class="ui-card-icon" style="background-color: rgb(221, 221, 221)";>
+                                <i class="icon-loading-form"></i>
+                            </div>
+                            <!--
+                            <div class="ui-card-icon">
+                                <i class="icon-flight"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-burger"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-tree-single-point"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-tree-multi-point"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-toggle"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-arrow-arrive"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-arrow-departure"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-dropdown-toggle-small"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-dropdown-toggle-wide"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-cards"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-bed"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-bus"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-left-jump"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-circle"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-compare"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-settings"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-c-minus"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-c-plus"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-thick-prev"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-thick-next"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-datepicker"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-clean"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-document"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-documents"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-vouchers"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-success"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-x"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-no-star-light-small"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-no-star-small"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-star-small"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-dropdown-toggle"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-info"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-edit-doc"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-find"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-radio"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="active"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-up"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-down"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-price-tax"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-confirm"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-cancel"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-checkbox"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-form-package"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-form-list"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-form-calendar"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-form-destination"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-form-pin"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-form-food"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-form-bed"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-form-time"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-form-star"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-form-seat"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-form-hotel"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-form-car"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-form-plane"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-form-pax"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-form-box"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-no-star-light-large"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-no-star-large"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-star-large"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="star-group"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-confirm-large"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-info-large"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-pax-adt"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-pax-chd"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-pax-inf"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-pax-senior"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="timeline-point"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-hguide"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-departure"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-arrival"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-pointer-right"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-thin-prev"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-thin-next"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-heart-compare"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-check-compare"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-circle-compare"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-view-list"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-view-detail"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-view-tile"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-view-graph"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-special-offer"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-full-view"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="showcase-slider-grey-pager"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-slider-page-gray"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="showcase-slider-page"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="cycle-pager-active"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-day"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-showcase-prev"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-showcase-next"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-target"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-fullscreen-in"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-fullscreen-exit"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-widget-car"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-widget-destination"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-widget-plane"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-widget-fly"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-widget-package"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-widget-bed"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-widget-bus"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-widget-ticket"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-widget-briefcase"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon2-widget-cruise"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-input-pin"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-input-calendar"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-input-destination"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-input-food"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-input-hotel"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-input-list"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-input-package"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-input-rentacar"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-input-room"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-input-seat"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-input-star"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-input-time"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-input-plane"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-input-pax"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-input-box"></i>
+                            </div>-->
+                            <div class="ui-card-icon">
+                                <i class="icon-cards"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-document"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-documents"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-vouchers"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-datepicker"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-radio"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-up"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-down"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-checkbox"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-thick-prev"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-thick-next"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-info"></i>
+                            </div>
+                            <div class="ui-card-icon" style="background-color: rgb(221, 221, 221);">
+                                <i class="icon-info white"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-form-package"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-form-list"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-form-calendar"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-form-destination"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-form-pin"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-form-food"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-form-bed"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-form-time"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-form-star"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-form-seat"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-form-hotel"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-form-car"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-form-plane"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-form-pax"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-form-box"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-check-compare"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-circle-compare"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-day-circle"></i>
+                            </div>
+                            <div class="ui-card-icon" style="width: 9vw;">
+                                <i class="icon-special-offer"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-package-checked"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-info-large"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-widget-cruise"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-widget-car"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-widget-destination"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-widget-plane"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-widget-fly"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-widget-package"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-widget-bed"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-widget-bus"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-widget-ticket"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-widget-briefcase"></i>
+                            </div>
+                            <!-- tab blue icons -->
+                            <div class="ui-card-icon">
+                                <i class="icon-widget-cruise blue"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-widget-cruise2 blue"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-widget-car blue"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-widget-fly blue"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-widget-destination blue"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-widget-catalog blue"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-widget-package blue"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-widget-bus blue"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-widget-bed blue"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-widget-ticket blue"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-widget-insurance blue"></i>
+                            </div>
+                            <!-- tab white icons -->
+                            <div class="ui-card-icon" style="background-color: rgb(221, 221, 221);">
+                                <i class="icon-widget-cruise white"></i>
+                            </div>
+                            <div class="ui-card-icon" style="background-color: rgb(221, 221, 221);">
+                                <i class="icon-widget-cruise2 white"></i>
+                            </div>
+                            <div class="ui-card-icon" style="background-color: rgb(221, 221, 221);">
+                                <i class="icon-widget-car white"></i>
+                            </div>
+                            <div class="ui-card-icon" style="background-color: rgb(221, 221, 221);">
+                                <i class="icon-widget-fly white"></i>
+                            </div>
+                            <div class="ui-card-icon" style="background-color: rgb(221, 221, 221);">
+                                <i class="icon-widget-destination white"></i>
+                            </div>
+                            <div class="ui-card-icon" style="background-color: rgb(221, 221, 221);">
+                                <i class="icon-widget-catalog white"></i>
+                            </div>
+                            <div class="ui-card-icon" style="background-color: rgb(221, 221, 221);">
+                                <i class="icon-widget-package white"></i>
+                            </div>
+                            <div class="ui-card-icon" style="background-color: rgb(221, 221, 221);">
+                                <i class="icon-widget-bus white"></i>
+                            </div>
+                            <div class="ui-card-icon" style="background-color: rgb(221, 221, 221);">
+                                <i class="icon-widget-bed white"></i>
+                            </div>
+                            <div class="ui-card-icon" style="background-color: rgb(221, 221, 221);">
+                                <i class="icon-widget-ticket white"></i>
+                            </div>
+                            <div class="ui-card-icon" style="background-color: rgb(221, 221, 221);">
+                                <i class="icon-widget-insurance white"></i>
+                            </div>
+
+                            <div class="clear"></div>    
+                            <h3>Icons - Bootstrap</h3>
+                            <div class="ui-card-icon">
+                                <i class="icon-glass"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-music"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-search"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-envelope"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-heart"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-star-empty"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-film"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-th-large"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-th"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-th-list"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-ok"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-remove"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-zoom-out"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-off"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-cog"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-trash"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-home"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-file"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-time"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-road"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-download-alt"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-download"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-upload"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-play"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-refresh"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-lock"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-headphones"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-volume-off"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-volume-down"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-volume-up"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-qrcode"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-barcode"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-tags"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-book"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-print"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-camera"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-font"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-bold"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-italic"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-text-height"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-text-width"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-align-center"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-align-right"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-align-justify"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-list-alt"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-indent-left"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-indent-right"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-facetime-video"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-picture"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-map-marker"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-adjust"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-tint"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-edit"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-check"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-step-backward"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-fast-backward"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-play-circle"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-stop"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-forward"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-step-forward"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-chevron-left"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-chevron-right"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-plus-sign"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-minus-sign"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-remove-sign"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-ok-sign"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-question-sign"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-screenshot"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-remove-circle"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-ok-circle"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-ban-circle"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-arrow-right"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-arrow-up"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-arrow-down"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-share-alt"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-resize-full"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-resize-small"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-minus"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-asterisk"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-exclamation-sign"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-gift"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-leaf"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-fire"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-eye-open"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-eye-close"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-warning-sign"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-plane"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-calendar"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-random"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-comment"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-magnet"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-chevron-up"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-chevron-down"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-retweet"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-shopping-cart"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-folder-close"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-resize-vertical"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-resize-horizontal"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-hdd"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-bullhorn"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-bell"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-certificate"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-thumbs-up"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-thumbs-down"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-hand-right"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-hand-left"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-hand-up"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-hand-down"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-circle-arrow-right"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-circle-arrow-left"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-circle-arrow-up"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-circle-arrow-down"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-wrench"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-tasks"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-filter"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-fullscreen"></i>
+                            </div>
+
+                            <div class="clear"></div>    
+                            <h3>Icon-Font <small>• Tamanho ajustável</small></h3>
+                            <div class="ui-card-icon">
+                                <i class="icon-font-star"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-font-pin"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-font-pointer-right"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-font-price-tax"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-font-confirm"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-font-cancel"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-font-view-list"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-font-view-detail"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-font-view-tile"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-font-view-graph"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-font-open-circle"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-font-burger"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-font-arrow-left"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-font-arrow-right"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-font-open-circle2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-font-fullscreen-out"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-font-fullscreen-in"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-font-target"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-font-arrow-left2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-font-arrow-right2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-font-alert-info"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-font-alert-error"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-font-alert-success"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-font-alert-warning"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-font-destination"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-font-send"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-font-pax-adt1"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-font-pax-adt"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-font-pax-chd"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-font-pax-inf"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-font-pax-senior"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-font-open-circle3"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-font-plane-departure"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-font-plane-arrive"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-font-cards"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-font-bed"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-font-bus"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-font-share"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-font-bullet"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-font-compare"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-font-settings"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-font-minus"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-font-plus"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-font-calendar"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-font-clear"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-font-info"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-font-pen"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-font-search"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-font-tick"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-font-cross"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-font-star2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-font-dropdown-toggle"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-font-arrow-left3"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-font-arrow-right3"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-home"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-home2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-home3"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-office"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-newspaper"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-pencil"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-pencil2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-quill"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-pen"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-blog"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-eyedropper"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-droplet"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-paint-format"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-image"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-images"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-file-empty"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-files-empty"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-file-text2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-stack"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-folder"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-folder-open"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-map"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-map2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-undo2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-redo2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-bubble"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-bubbles"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-bubbles2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-bubble2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-bubbles3"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-bubbles4"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-user"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-users"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-user-plus"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-user-minus"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-user-check"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-user-tie"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-quotes-left"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-quotes-right"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-zoom-in"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-zoom-out"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-enlarge"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-shrink"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-enlarge2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-shrink2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-equalizer"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-equalizer2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-cog"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-cogs"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-pie-chart"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-stats-dots"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-stats-bars"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-stats-bars2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-spoon-knife"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-fire"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-briefcase"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-clipboard"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-list-numbered"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-list"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-list2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-earth"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-link"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-flag"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-attachment"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-eye"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-eye-plus"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-eye-minus"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-eye-blocked"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-bookmark"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-sun"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-contrast"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-brightness-contrast"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-man"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-woman"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-man-woman"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-neutral"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-warning"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-notification"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-question"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-plus"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-minus"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-info-sign"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-cancel-circle"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-blocked"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-cross"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-checkmark"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-checkmark2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-enter"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-exit"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-play2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-pause"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-stop"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-previous"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-next"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-backward"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-forward2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-play3"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-pause2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-stop2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-backward2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-forward3"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-first"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-last"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-previous2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-next2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-eject"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-volume-high"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-volume-medium"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-volume-low"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-volume-mute"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-volume-mute2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-volume-increase"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-volume-decrease"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-loop"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-loop2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-infinite"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-shuffle"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-arrow-up-left"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-arrow-up"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-arrow-up-right"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-arrow-right"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-arrow-down-right"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-arrow-down"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-arrow-down-left"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-arrow-left"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-arrow-up-left2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-arrow-up2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-arrow-up-right2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-arrow-right2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-arrow-down-right2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-arrow-down2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-arrow-down-left2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-arrow-left2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-circle-up"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-circle-right"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-circle-down"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-circle-left"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-tab"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-move-up"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-move-down"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-sort-alpha-asc"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-sort-alpha-desc"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-sort-numeric-asc"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-sort-numberic-desc"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-sort-amount-asc"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-sort-amount-desc"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-command"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-shift"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-ctrl"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-opt"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-checkbox-checked"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-checkbox-unchecked"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-radio-checked"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-radio-checked2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-radio-unchecked"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-crop"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-page-break"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-pagebreak"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-insert-template"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-share"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-new-tab"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-embed"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-embed2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-terminal"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-share2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-mail4"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-amazon"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-google"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-google2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-google3"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-google-plus"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-google-plus2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-google-plus3"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-hangouts"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-google-drive"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-facebook"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-facebook2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-instagram"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-whatsapp"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-spotify"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-telegram"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-twitter"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-vine"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-vk"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-sina-weibo"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-rss"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-rss2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-youtube"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-youtube2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-twitch"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-vimeo"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-vimeo2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-lanyrd"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-flickr"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-flickr2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-flickr3"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-flickr4"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-dribbble"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-behance"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-behance2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-deviantart"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-500px"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-dropbox"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-onedrive"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-github"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-npm"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-basecamp"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-trello"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-wordpress"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-joomla"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-ello"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-blogger"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-blogger2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-tumblr"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-tumblr2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-appleinc"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-finder"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-android"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-windows"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-windows8"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-soundcloud"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-soundcloud2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-skype"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-reddit"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-hackernews"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-wikipedia"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-linkedin"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-linkedin2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-lastfm"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-lastfm2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-delicious"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-stumbleupon"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-stumbleupon2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-stackoverflow"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-pinterest"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-pinterest2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-xing"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-xing2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-flattr"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-foursquare"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-yelp"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-paypal"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-chrome"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-firefox"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-IE"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-edge"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-safari"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-opera"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-file-pdf"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-file-openoffice"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-file-word"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-file-excel"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-libreoffice"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-html-five"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-html-five2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-css3"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-git"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-codepen"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-eye2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-paper-clip"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-mail5"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-toggle"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-layout"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-link2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-bell2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-lock2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-unlock"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-ribbon"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-image2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-signal"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-target2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-clipboard2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-clock3"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-watch"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-air-play"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-camera2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-video"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-disc"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-printer2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-monitor"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-server"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-cog2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-heart2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-paragraph"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-align-justify"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-align-left"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-align-center"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-align-right"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-book2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-layers"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-stack2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-stack-2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-paper"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-paper-stack"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-search2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-zoom-in2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-zoom-out2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-reply2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-circle-plus"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-circle-minus"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-circle-check"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-circle-cross"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-square-plus"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-square-minus"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-square-check"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-square-cross"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-microphone"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-record"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-skip-back"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-rewind"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-play4"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-pause3"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-stop3"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-fast-forward"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-skip-forward"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-shuffle2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-repeat"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-folder2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-umbrella"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-moon"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-thermometer"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-drop"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-sun2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-cloud2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-cloud-upload2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-cloud-download2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-upload4"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-download4"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-location3"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-location-2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-map3"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-battery"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-head"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-briefcase2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-speech-bubble"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-anchor"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-globe"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-box"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-reload"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-share3"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-marquee"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-marquee-plus"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-marquee-minus"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-tag"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-power2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-command2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-alt"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-esc"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-bar-graph"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-bar-graph-2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-pie-graph"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-star"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-arrow-left3"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-arrow-right3"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-arrow-up3"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-arrow-down3"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-volume"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-mute"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-content-right"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-content-left"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-grid"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-grid-2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-columns"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-loader"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-bag"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-ban"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-flag2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-trash"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-expand"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-contract"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-maximize"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-minimize"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-plus2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-minus2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-check"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-cross2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-move"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-delete"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-menu5"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-archive"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-inbox"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-outbox"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-file"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-file-add"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-file-subtract"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-help"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-open"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-ellipsis"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-mail-envelope-closed"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-mail-envelope-closed2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-mail-envelope-closed3"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-mail-envelope-closed4"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-file-pdf2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-file-pdf3"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-file-html"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-file-html2"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-file-css"></i>
+                            </div>
+                            <div class="ui-card-icon">
+                                <i class="icon-file-css2"></i>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </section>
+                <section id="cores">
+                    <div>
+                        <h2>Cores Website</h2>
+                        <p class="">No website triPoint temos variáveis de cores para propagar nos variados elementos html ao longo do fluxo de páginas, nomeadamente Botões, links, títulos etc.<br>
+                        <small><i>As cores apresentadas são apenas representativas.</i></small>
+                        </p>
+
+                        <div class="table total-width">
+                            <div class="table-row">
+                                <div class="table-cell">
+                                    <h3>@primaryColor - #F9ED69</h3>
+                                    <div class="ui-card">
+
+                                    </div>
+                                </div>
+                                <div class="table-cell">
+                                    <h3>@secondaryColor - #70ACFF</h3>
+                                    <div class="ui-card inverted">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="table-row">
+                                <div class="table-cell">
+                                    <br>
+                                    <h3>@corTitulo - #F38181</h3>
+                                    <div class="ui-title">
+                                        <h1>Título</h1>
+                                    </div>
+                                </div>
+                                <div class="table-cell">
+                                    <br>
+                                    <h3>@corButton - #55E9BC</h3>
+                                    <div class="btn btn-large btn-primary ui-btn">btn-primary • @corButton</div>
+                                </div>
+                            </div>
+                            <div class="table-row">
+                                <div class="table-cell">
+                                    <h3>@corAncor - #0000FF</h3>
+                                    <a class="ui-link">Link</a>
+                                </div>
+                                <div class="table-cell">
+                                    <h3>@corHover - #FF00FF</h3>
+                                    <a class="ui-link-hover">Hover</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+
+                        <br><br>
+                        <div class="heading">
+                            <h3>Botões • Tamanhos e estilos</h3>
+                        </div>
+                        <div class="table-ui table total-width">
+                            <div class="table-row">
+                                <div class="table-cell">
+                                    'btn'
+                                </div>
+                                <div class="table-cell">
+                                    <div class="btn">btn Default</div>
+                                </div>
+                                <div class="table-cell">
+                                    <div class="btn btn-primary">btn Primary</div>
+                                </div>
+                                <div class="table-cell">
+                                    <div class="btn btn-success">btn Success</div>
+                                </div>
+                                <div class="table-cell">
+                                    <div class="btn btn-warning">btn warning</div>
+                                </div>
+                                <div class="table-cell">
+                                    <div class="btn btn-danger">btn danger</div>
+                                </div>
+                            </div>
+                            <div class="table-row">
+                                <div class="table-cell">
+                                    'btn btn-mini'
+                                </div>
+                                <div class="table-cell">
+                                    <div class="btn btn-mini">btn Default</div>
+                                </div>
+                                <div class="table-cell">
+                                    <div class="btn btn-mini btn-primary">btn Primary</div>
+                                </div>
+                                <div class="table-cell">
+                                    <div class="btn btn-mini btn-success">btn Success</div>
+                                </div>
+                                <div class="table-cell">
+                                    <div class="btn btn-mini btn-warning">btn warning</div>
+                                </div>
+                                <div class="table-cell">
+                                    <div class="btn btn-mini btn-danger">btn danger</div>
+                                </div>
+                            </div>
+                            <div class="table-row">
+                            <div class="table-cell">
+                                    'btn btn-small'
+                                </div>
+                                <div class="table-cell">
+                                    <div class="btn btn-small">Btn Default</div>
+                                </div>
+                                <div class="table-cell">
+                                    <div class="btn btn-small btn-primary">btn Primary</div>
+                                </div>
+                                <div class="table-cell">
+                                    <div class="btn btn-small btn-success">btn Success</div>
+                                </div>
+                                <div class="table-cell">
+                                    <div class="btn btn-small btn-warning">btn warning</div>
+                                </div>
+                                <div class="table-cell">
+                                    <div class="btn btn-small btn-danger">btn danger</div>
+                                </div>
+                            </div>
+                            <div class="table-row">
+                                <div class="table-cell">
+                                    'btn btn-large'
+                                </div>
+                                <div class="table-cell">
+                                    <div class="btn btn-large">Btn Default</div>
+                                </div>
+                                <div class="table-cell">
+                                    <div class="btn btn-large btn-primary">btn Primary</div>
+                                </div>
+                                <div class="table-cell">
+                                    <div class="btn btn-large btn-success">btn Success</div>
+                                </div>
+                                <div class="table-cell">
+                                    <div class="btn btn-large btn-warning">btn warning</div>
+                                </div>
+                                <div class="table-cell">
+                                    <div class="btn btn-large btn-danger">btn danger</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="code-container">
+                            <code class="css-comment">&lt!-- Exemplo HTML --&gt</code>
+                            <div class="code-line">
+                                <code class="html-tag">&ltdiv</code> 
+                                <code class="html-class">class=</code><code class="html-class-value">"btn btn-large btn-success"</code><code class="html-tag">&gt</code>O meu btn<code class="html-tag">&lt/div&gt</code>
+                            </div>
+                            <br>
+                             <div class="btn btn-large btn-success">O meu btn</div> 
+                        </div>
+
+                    </div>
+                </section>
+                <section id="css">
+                    <div>
+                        <header>
+                        <h2>CSS Utilities</h2>
+                        <span class="section-description">Pode usá-las em qualquer parte do website, ao invés de criar novas regras CSS reutilize-as!</span>
+
+                        <div class="code-container">
+                            <code class="css-comment">// Quick floats</code>
+                            <div class="code-line">
+                                <code class="css-rule">.pull-right</code>
+                                <code class="css-plain">{</code>
+                            </div>
+                            <div class="code-line"> 
+                                <code class="css-space"> </code> 
+                                <code class="css-keyword">float</code><code class="css-plain">: </code>
+                                <code class="css-value">right</code><code class="css-plain">;</code>
+                            </div>
+                            <div class="code-line"> <code class="css-plain">}</code></div>
+
+                            <div class="code-line">
+                                <code class="css-rule">.pull-left</code>
+                                <code class="css-plain">{</code>
+                            </div>
+                            <div class="code-line">
+                                <code class="css-space"> </code> 
+                                <code class="css-keyword">float</code><code class="css-plain">: </code> 
+                                <code class="css-value">left</code><code class="css-plain">;</code>
+                            </div>
+                            <div class="code-line"><code class="css-plain">}</code></div>
+                            
+                            <br>
+                            <code class="css-comment">// Toggling content</code>
+                            <div class="code-line">
+                                <code class="css-rule">.hide</code>
+                                <code class="css-plain">{</code>
+                            </div>
+                            <div class="code-line">
+                                <code class="css-space"> </code> 
+                                <code class="css-keyword">display</code><code class="css-plain">: </code>
+                                <code class="css-value">none</code><code class="css-plain">;</code>
+                            </div>
+                            <div class="code-line"><code class="css-plain">}</code></div>
+                            <div class="code-line">
+                                <code class="css-rule">.show</code>
+                                <code class="css-plain">{</code>
+                            </div>
+                            <div class="code-line">
+                                <code class="css-space"> </code> 
+                                <code class="css-keyword">display</code><code class="css-plain">: </code>
+                                <code class="css-value">block</code><code class="css-plain">;</code>
+                            </div>
+                            <div class="code-line"><code class="css-plain">}</code></div>
+                            
+                            <br>
+                            <code class="css-comment">// Visibility</code>
+                            <div class="code-line">
+                                <code class="css-rule">.invisible</code>
+                                <code class="css-plain">{</code>
+                            </div>
+                            <div class="code-line">
+                                <code class="css-space"> </code> 
+                                <code class="css-keyword">visibility</code><code class="css-plain">: </code>
+                                <code class="css-value">hidden</code><code class="css-plain">;</code>
+                            </div>
+                            <div class="code-line"><code class="css-plain">}</code></div>
+                        </div>
+                        
+                        <div class="code-container">
+
+                            <code class="css-comment">// Tables</code><br>
+                            <code class="css-comment">//-------------</code>
+
+                            <div class="code-line">
+                                <code class="css-rule">.table </code> 
+                                <code class="css-plain">{</code>
+                            </div>
+                            <div class="code-line">
+                                <code class="css-space"> </code> 
+                                <code class="css-keyword">display</code><code class="css-plain">: </code> 
+                                <code class="css-value">table</code><code class="css-plain">;</code>
+                            </div>
+                            <div class="code-line"><code class="css-plain">}</code></div>
+                            
+                            <div class="code-line">
+                                <code class="css-rule">.table.total-width </code> 
+                                <code class="css-plain">{</code>
+                            </div>
+                            <div class="code-line">
+                                <code class="css-space"> </code> 
+                                <code class="css-keyword">width</code><code class="css-plain">: </code> 
+                                <code class="css-value">100%</code><code class="css-plain">;</code>
+                            </div>
+                            <div class="code-line"><code class="css-plain">}</code></div>
+                             
+                            <div class="code-line">
+                                <code class="css-rule">.table.layout-fixed </code> 
+                                <code class="css-plain">{</code>
+                            </div>
+                            <div class="code-line">
+                                <code class="css-space"> </code> 
+                                <code class="css-keyword">table-layout</code><code class="css-plain">: </code> 
+                                <code class="css-value">fixed</code><code class="css-plain">;</code>
+                            </div>
+                            <div class="code-line"><code class="css-plain">}</code></div>
+                             
+                            <div class="code-line">
+                                <code class="css-rule">.table-row </code> 
+                                <code class="css-plain">{</code>
+                            </div>
+                            <div class="code-line">
+                                <code class="css-space"> </code> 
+                                <code class="css-keyword">display</code><code class="css-plain">: </code> 
+                                <code class="css-value">table-row</code><code class="css-plain">;</code>
+                            </div>
+                            <div class="code-line">
+                                <code class="css-space"> </code> 
+                                <code class="css-keyword">height</code><code class="css-plain">: </code> 
+                                <code class="css-value">100%</code><code class="css-plain">;</code>
+                            </div>
+                            <div class="code-line"><code class="css-plain">}</code></div>
+                             
+                            <div class="code-line">
+                                <code class="css-rule">.table-cell </code> 
+                                <code class="css-plain">{</code>
+                            </div>
+                            <div class="code-line">
+                                <code class="css-space"> </code> 
+                                <code class="css-keyword">display</code><code class="css-plain">: </code> 
+                                <code class="css-value">table-cell</code><code class="css-plain">;</code>
+                            </div>
+                            <div class="code-line">
+                                <code class="css-space"> </code> 
+                                <code class="css-keyword">vertical-align</code><code class="css-plain">: </code> 
+                                <code class="css-value">top</code><code class="css-plain">;</code>
+                            </div>
+                            <div class="code-line">
+                                <code class="css-space"> </code> 
+                                <code class="css-keyword">height</code><code class="css-plain">: </code> 
+                                <code class="css-value">100%</code><code class="css-plain">;</code>
+                            </div>
+                            <div class="code-line"><code class="css-plain">}</code></div>
+                             
+                            
+                            <code class="css-comment">// Display</code><br>
+                            <code class="css-comment">//-------------</code>
+                            <div class="code-line">
+                                <code class="css-rule">.inline-block</code> 
+                                <code class="css-plain">{</code>
+                            </div>
+                            <div class="code-line">
+                                <code class="css-space"> </code> 
+                                <code class="css-keyword">display</code><code class="css-plain">: </code> 
+                                <code class="css-value">inline-block</code><code class="css-plain">;</code>
+                            </div>
+                            <div class="code-line"><code class="css-plain">}</code></div>
+                            
+                            <br>
+                            <code class="css-comment">// Position</code><br>
+                            <code class="css-comment">//-------------</code>
+                            <div class="code-line">
+                                <code class="css-rule">.position-fixed</code> 
+                                <code class="css-plain">{</code>
+                            </div>
+                            <div class="code-line">
+                                <code class="css-space"> </code> 
+                                <code class="css-keyword">position</code><code class="css-plain">: </code> 
+                                <code class="css-value">fixed</code><code class="css-plain">;</code>
+                            </div>
+                            <div class="code-line"><code class="css-plain">}</code></div>
+                             
+                            <div class="code-line">
+                                <code class="css-rule">.position-relative</code> 
+                                <code class="css-plain">{</code>
+                            </div>
+                            <div class="code-line">
+                                <code class="css-space"> </code> 
+                                <code class="css-keyword">position</code><code class="css-plain">: </code> 
+                                <code class="css-value">relative</code><code class="css-plain">;</code>
+                            </div>
+                            <div class="code-line"><code class="css-plain">}</code></div>
+                            
+                            <div class="code-line">
+                                <code class="css-rule">.position-absolute</code> 
+                                <code class="css-plain">{</code>
+                            </div>
+                            <div class="code-line">
+                                <code class="css-space"> </code> 
+                                <code class="css-keyword">position</code><code class="css-plain">: </code> 
+                                <code class="css-value">absolute</code><code class="css-plain">;</code>
+                            </div>
+                            <div class="code-line"><code class="css-plain">}</code></div>
+                            
+                            <br>
+                            <code class="css-comment">// Cursor</code><br>
+                            <code class="css-comment">//-------------</code>
+                            <div class="code-line">
+                                <code class="css-rule">.cursor-pointer</code> 
+                                <code class="css-plain">{</code>
+                            </div>
+                            <div class="code-line">
+                                <code class="css-space"> </code> 
+                                <code class="css-keyword">cursor</code><code class="css-plain">: </code> 
+                                <code class="css-value">pointer</code><code class="css-plain">;</code>
+                            </div>
+                            <div class="code-line"><code class="css-plain">}</code></div>
+                                
+
+                            <br>
+                            <code class="css-comment">// Size's</code><br>
+                            <code class="css-comment">//-------------</code>
+                            <div class="code-line">
+                                <code class="css-rule">.total-space</code> 
+                                <code class="css-plain">{</code>
+                            </div>
+                            <div class="code-line">
+                                <code class="css-space"> </code> 
+                                <code class="css-keyword">width</code><code class="css-plain">: </code> 
+                                <code class="css-value">100%</code><code class="css-plain">;</code>
+                            </div>
+                            <div class="code-line">
+                                <code class="css-space"> </code> 
+                                <code class="css-keyword">height</code><code class="css-plain">: </code> 
+                                <code class="css-value">100%</code><code class="css-plain">;</code>
+                            </div>
+                            <div class="code-line"><code class="css-plain">}</code></div>
+                            
+                            <div class="code-line">
+                                <code class="css-rule">.total-width</code> 
+                                <code class="css-plain">{</code>
+                            </div>
+                            <div class="code-line">
+                                <code class="css-space"> </code> 
+                                <code class="css-keyword">width</code><code class="css-plain">: </code> 
+                                <code class="css-value">100%</code><code class="css-plain">;</code>
+                            </div>
+                            <div class="code-line"><code class="css-plain">}</code></div>
+                            
+                            <div class="code-line">
+                                <code class="css-rule">.total-height</code> 
+                                <code class="css-plain">{</code>
+                            </div>
+                            <div class="code-line">
+                                <code class="css-space"> </code> 
+                                <code class="css-keyword">height</code><code class="css-plain">: </code> 
+                                <code class="css-value">100%</code><code class="css-plain">;</code>
+                            </div>
+                            <div class="code-line"><code class="css-plain">}</code></div>
+                            
+                            <div class="code-line">
+                                <code class="css-rule">.half-width</code> 
+                                <code class="css-plain">{</code>
+                            </div>
+                            <div class="code-line">
+                                <code class="css-space"> </code> 
+                                <code class="css-keyword">width</code><code class="css-plain">: </code> 
+                                <code class="css-value">50%</code><code class="css-plain">;</code>
+                            </div>
+                            <div class="code-line"><code class="css-plain">}</code></div>
+                                 
+                            <br>
+                            <code class="css-comment">// global space</code><br>
+                            <code class="css-comment">//-------------</code>
+
+                            <div class="code-line">
+                                <code class="css-rule">.center-align</code> 
+                                <code class="css-plain">{</code>
+                            </div>
+                            <div class="code-line">
+                                <code class="css-space"> </code> 
+                                <code class="css-keyword">margin</code><code class="css-plain">: </code> 
+                                <code class="css-value">auto</code><code class="css-plain">;</code>
+                            </div>
+                            <div class="code-line"><code class="css-plain">}</code></div>
+                                
+                            <div class="code-line">
+                                <code class="css-rule">.margin-5px</code> 
+                                <code class="css-plain">{</code>
+                            </div>
+                            <div class="code-line">
+                                <code class="css-space"> </code> 
+                                <code class="css-keyword">margin</code><code class="css-plain">: </code> 
+                                <code class="css-value">5px</code><code class="css-plain">;</code>
+                            </div>
+                            <div class="code-line"><code class="css-plain">}</code></div>
+
+                            <div class="code-line">
+                                <code class="css-rule">.padding-5px</code> 
+                                <code class="css-plain">{</code>
+                            </div>
+                            <div class="code-line">
+                                <code class="css-space"> </code> 
+                                <code class="css-keyword">padding</code><code class="css-plain">: </code> 
+                                <code class="css-value">5px</code><code class="css-plain">;</code>
+                            </div>
+                            <div class="code-line"><code class="css-plain">}</code></div>
+
+                            <div class="code-line">
+                                <code class="css-rule">.clear-space</code> 
+                                <code class="css-plain">{</code>
+                            </div>
+                            <div class="code-line">
+                                <code class="css-space"> </code> 
+                                <code class="css-keyword">margin</code><code class="css-plain">: </code> 
+                                <code class="css-value">0</code><code class="css-plain">;</code>
+                            </div>
+                            <div class="code-line">
+                                <code class="css-space"> </code> 
+                                <code class="css-keyword">padding</code><code class="css-plain">: </code> 
+                                <code class="css-value">0</code><code class="css-plain">;</code>
+                            </div>
+                            <div class="code-line"><code class="css-plain">}</code></div>
+                                 
+                            <div class="code-line">
+                                <code class="css-rule">.clear-padding</code> 
+                                <code class="css-plain">{</code>
+                            </div>
+                            <div class="code-line">
+                                <code class="css-space"> </code> 
+                                <code class="css-keyword">padding</code><code class="css-plain">: </code> 
+                                <code class="css-value">0</code><code class="css-plain">;</code>
+                            </div>
+                            <div class="code-line"><code class="css-plain">}</code></div>
+                                
+                            <div class="code-line">
+                                <code class="css-rule">.clear-margin</code> 
+                                <code class="css-plain">{</code>
+                            </div>
+                            <div class="code-line">
+                                <code class="css-space"> </code> 
+                                <code class="css-keyword">margin</code><code class="css-plain">: </code> 
+                                <code class="css-value">0</code><code class="css-plain">;</code>
+                            </div>
+                            <div class="code-line"><code class="css-plain">}</code></div>
+                            
+                            <div class="code-line">
+                                <code class="css-rule">.no-border</code> 
+                                <code class="css-plain">{</code>
+                            </div>
+                            <div class="code-line">
+                                <code class="css-space"> </code> 
+                                <code class="css-keyword">border</code><code class="css-plain">: </code> 
+                                <code class="css-value">none</code><code class="css-plain">;</code>
+                            </div>
+                            <div class="code-line"><code class="css-plain">}</code></div>
+                                 
+                            <br>
+                            <code class="css-comment">// text</code><br> 
+                            <code class="css-comment">//-------------</code>
+                               
+                            <div class="code-line">
+                                <code class="css-rule">.text-underline</code> 
+                                <code class="css-plain">{</code>
+                            </div>
+                            <div class="code-line">
+                                <code class="css-space"> </code> 
+                                <code class="css-keyword">text-decoration</code><code class="css-plain">: </code> 
+                                <code class="css-value">underline</code><code class="css-plain">;</code>
+                            </div>
+                            <div class="code-line"><code class="css-plain">}</code></div> 
+                                
+                            <div class="code-line">
+                                <code class="css-rule">.text-bold</code> 
+                                <code class="css-plain">{</code>
+                            </div>
+                            <div class="code-line">
+                                <code class="css-space"> </code> 
+                                <code class="css-keyword">font-weight</code><code class="css-plain">: </code> 
+                                <code class="css-value">bold</code><code class="css-plain">;</code>
+                            </div>
+                            <div class="code-line"><code class="css-plain">}</code></div>
+                                 
+                            <div class="code-line">
+                                <code class="css-rule">.text-italic</code> 
+                                <code class="css-plain">{</code>
+                            </div>
+                            <div class="code-line">
+                                <code class="css-space"> </code> 
+                                <code class="css-keyword">font-style</code><code class="css-plain">: </code> 
+                                <code class="css-value">italic</code><code class="css-plain">;</code>
+                            </div>
+                            <div class="code-line"><code class="css-plain">}</code></div>
+                            
+                            <div class="code-line">
+                                <code class="css-rule">.text-light</code> 
+                                <code class="css-plain">{</code>
+                            </div>
+                            <div class="code-line">
+                                <code class="css-space"> </code> 
+                                <code class="css-keyword">font-weight</code><code class="css-plain">: </code> 
+                                <code class="css-value">light</code><code class="css-plain">;</code>
+                            </div>
+                            <div class="code-line"><code class="css-plain">}</code></div>
+                                 
+                            <div class="code-line">
+                                <code class="css-rule">.text-left</code> 
+                                <code class="css-plain">{</code>
+                            </div>
+                            <div class="code-line">
+                                <code class="css-space"> </code> 
+                                <code class="css-keyword">text-align</code><code class="css-plain">: </code> 
+                                <code class="css-value">left</code><code class="css-plain">;</code>
+                            </div>
+                            <div class="code-line"><code class="css-plain">}</code></div>
+                            
+                            <div class="code-line">
+                                <code class="css-rule">.text-right</code> 
+                                <code class="css-plain">{</code>
+                            </div>
+                            <div class="code-line">
+                                <code class="css-space"> </code> 
+                                <code class="css-keyword">text-align</code><code class="css-plain">: </code> 
+                                <code class="css-value">right</code><code class="css-plain">;</code>
+                            </div>
+                            <div class="code-line"><code class="css-plain">}</code></div>
+                            
+                            <div class="code-line">
+                                <code class="css-rule">.text-center</code> 
+                                <code class="css-plain">{</code>
+                            </div>
+                            <div class="code-line">
+                                <code class="css-space"> </code> 
+                                <code class="css-keyword">text-align</code><code class="css-plain">: </code> 
+                                <code class="css-value">center</code><code class="css-plain">;</code>
+                            </div>
+                            <div class="code-line"><code class="css-plain">}</code></div>
+                             
+                            <div class="code-line">
+                                <code class="css-rule">.text-justify</code> 
+                                <code class="css-plain">{</code>
+                            </div>
+                            <div class="code-line">
+                                <code class="css-space"> </code> 
+                                <code class="css-keyword">text-align</code><code class="css-plain">: </code> 
+                                <code class="css-value">justify</code><code class="css-plain">;</code>
+                            </div>
+                            <div class="code-line"><code class="css-plain">}</code></div>
+
+                            <div class="code-line">
+                                <code class="css-rule">.text-1dot5-space</code> 
+                                <code class="css-plain">{</code>
+                            </div>
+                            <div class="code-line">
+                                <code class="css-space"> </code> 
+                                <code class="css-keyword">line-height</code><code class="css-plain">: </code> 
+                                <code class="css-value">1.5em</code><code class="css-plain">;</code>
+                            </div>
+                            <div class="code-line"><code class="css-plain">}</code></div>
+
+                            <div class="code-line">
+                                <code class="css-rule">.text-double-space</code> 
+                                <code class="css-plain">{</code>
+                            </div>
+                            <div class="code-line">
+                                <code class="css-space"> </code> 
+                                <code class="css-keyword">line-height</code><code class="css-plain">: </code> 
+                                <code class="css-value">2em</code><code class="css-plain">;</code>
+                            </div>
+                            <div class="code-line"><code class="css-plain">}</code></div>
+
+                            <div class="code-line">
+                                <code class="css-rule">.text-ident-double</code> 
+                                <code class="css-plain">{</code>
+                            </div>
+                            <div class="code-line">
+                                <code class="css-space"> </code> 
+                                <code class="css-keyword">text-indent</code><code class="css-plain">: </code> 
+                                <code class="css-value">2.5em</code><code class="css-plain">;</code>
+                            </div>
+                            <div class="code-line"><code class="css-plain">}</code></div>
+
+                            <div class="code-line">
+                                <code class="css-rule">.line-through</code> 
+                                <code class="css-plain">{</code>
+                            </div>
+                            <div class="code-line">
+                                <code class="css-space"> </code> 
+                                <code class="css-keyword">text-decoration</code><code class="css-plain">: </code> 
+                                <code class="css-value">line-through</code><code class="css-plain">;</code>
+                            </div>
+                            <div class="code-line"><code class="css-plain">}</code></div>
+
+                        </div>
+
+                    </div>
+                </section>
+
+
+                <div id="scrollIndicator" style="display: none;">
+                    <i></i>
+                </div>
+                
+			</div>
+		</div>
+        <footer>
+            <img src="images/uikit_logo.png" title="UI Kit">
+        </footer>   
+
+		<!-- classie.js by @desandro: https://github.com/desandro/classie -->
+		<script src="js/classie.js"></script>
+		<script src="js/cbpAnimatedHeader.js"></script>
+
+        <script>
+            smoothScroll.init({
+                selectorHeader: ".cbp-af-header.cbp-af-header-shrink"
+            });
+        </script>
+        <script>
+            
+            $(function(){
+    
+                //Check to see if the window is top if not then display button
+                $(window).scroll(function(){
+                    if ($(this).scrollTop() > 100) {
+                        $('#scrollIndicator').fadeIn();
+                    } else {
+                        $('#scrollIndicator').fadeOut();
+                    }
+                });
+                
+                //Click event to scroll to top
+                $('#scrollIndicator').click(function(){
+                    $('html, body').animate({scrollTop : 0},800);
+                    return false;
+                });
+                
+            });
+        </script>
+	</body>
+</html>

@@ -1,0 +1,61 @@
+code {
+	font: monospace;
+}
+
+.code-container {
+	background-color: #31343A;
+	border-radius: 3px;
+	position: relative;
+	font: 16px monospace !important;
+    padding: 20px;
+}
+.code-container + .code-container{
+	margin-top: 20px;
+}
+
+.main > section:nth-child(odd) .code-container {
+	background-color: #eee;
+}
+
+.code-line {
+
+}
+
+.css-comment {
+	color: #adff2f;
+}
+.main > section:nth-child(odd) .css-comment {
+	color: #77D354;
+}
+
+.css-rule {
+	color: gold;
+}
+.css-plain {
+    color: white !important;
+    margin: 0;
+    padding: 0;
+
+}
+.css-space {
+	padding: 0 10px;
+}
+.css-keyword {
+	color: cyan;
+}
+.css-value {
+	color: #B276FF;
+}
+
+/* HTML */
+
+.html-tag {
+ color: darkmagenta;
+}
+
+.html-class {
+	color: royalblue;
+}
+.html-class-value {
+	color: goldenrod;
+}

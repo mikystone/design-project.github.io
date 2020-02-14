@@ -1,0 +1,2973 @@
+.icon-loading-large {
+    display: inline-block;
+    height: 48px;
+    line-height: 48px;
+    vertical-align: middle;
+    width: 48px;
+}
+.icon-loading-large, .icon-loading-large:hover {
+    background: rgba(0, 0, 0, 0) url("../images/loading-large.gif") no-repeat scroll 0 0;
+    cursor: default;
+}
+.icon-loading {
+    background: rgba(0, 0, 0, 0) url("../images/searching.gif") no-repeat scroll 0 0;
+    cursor: default;
+    display: inline-block;
+    height: 18px;
+    line-height: 18px;
+    vertical-align: text-top;
+    width: 18px;
+}
+.icon-loading-form {
+    background: rgba(0, 0, 0, 0) url("../images/loading-form.png") no-repeat scroll 0 0;
+    cursor: default;
+    display: inline-block;
+    height: 21px;
+    line-height: 21px;
+    vertical-align: text-top;
+    width: 21px;
+}
+.icon-flight {
+    background-image: url("../images/Resultados/icon-flight.png");
+    display: inline-block;
+    height: 24px;
+    line-height: 24px;
+    width: 24px;
+}
+.icon-burger.white {
+    background-image: url("../images/icon-burger.png");
+    display: inline-block;
+    height: 24px;
+    line-height: 24px;
+    width: 32px;
+}
+.rentacar, .rentacar-D, .rentacar-H, .rentacar-G, .rentacar-J, .rentacar-W, .rentacar-M, .rentacar-N, .rentacar-U, .rentacar-R, .rentacar-C, .rentacar-E, .rentacar-F, .rentacar-I, .rentacar-L, .rentacar-O, .rentacar-P, .rentacar-X, .rentacar-S, .rentacar-all {
+    background-image: url("/Pesquisa/RentACar/rentacar-sprite.png");
+    display: inline-block;
+    height: 42px;
+    vertical-align: middle;
+    width: 126px;
+}
+.rentacar-D {
+    background-position: 0 0;
+}
+.rentacar-H {
+    background-position: -136px 0;
+}
+.rentacar-G {
+    background-position: -272px 0;
+}
+.rentacar-J {
+    background-position: -408px 0;
+}
+.rentacar-W {
+    background-position: -544px 0;
+}
+.rentacar-M {
+    background-position: -680px 0;
+}
+.rentacar-N {
+    background-position: -816px 0;
+}
+.rentacar-U {
+    background-position: -952px 0;
+}
+.rentacar-R {
+    background-position: -1088px 0;
+}
+.rentacar-C {
+    background-position: -1224px 0;
+}
+.rentacar-E {
+    background-position: -1360px 0;
+}
+.rentacar-F {
+    background-position: -1496px 0;
+}
+.rentacar-I {
+    background-position: -1632px 0;
+}
+.rentacar-L {
+    background-position: -1768px 0;
+}
+.rentacar-O {
+    background-position: -1904px 0;
+}
+.rentacar-P {
+    background-position: 0 -52px;
+}
+.rentacar-X {
+    background-position: -136px -52px;
+}
+.rentacar-S {
+    background-position: -272px -52px;
+}
+.rentacar-all {
+    background-position: -412px -50px;
+}
+.icons2, .icon2-tree-single-point, .icon2-tree-multi-point, .icon2-toggle.collapse, .icon2-toggle.expand, .icon2-arrow-arrive, .icon2-arrow-departure, .icon2-dropdown-toggle-small, .icon2-dropdown-toggle-small.white, .icon2-dropdown-toggle-wide, .icon2-dropdown-toggle-wide.white, .icon2-cards, .icon2-bed, .icon2-bed.white, .icon2-bus, .icon2-bus.white, .icon2-left-jump, .icon2-left-jump.white, .icon2-circle.ok, .icon2-circle.waiting, .icon2-compare, .icon2-compare.white, .icon2-settings, .icon2-settings.white, .icon2-c-minus, .icon2-c-plus, .icon2-thick-prev, .icon2-thick-next, .icon2-thick-prev.white, .icon2-thick-next.white, .icon2-datepicker, .icon2-clean, .icon2-document, .icon2-documents, .icon2-vouchers, .icon2-success, .icon2-x, .icon2-no-star-light-small, .icon2-no-star-small, .icon2-star-small, .icon2-dropdown-toggle, .icon2-dropdown-toggle.white, .icon2-info, .icon2-info.white, .icon2-edit-doc, .icon2-find, .icon2-radio, .icon2-radio.checked, .active > .icon2-radio, .icon2-up, .icon2-down, .icon2-price-tax, .icon2-confirm, .icon2-cancel, .icon2-checkbox, input[type="checkbox"]:checked + .icon2-checkbox, .icon2-form-package, .icon2-form-list, .icon2-form-calendar, .icon2-form-destination, .icon2-form-pin, .icon2-form-food, .icon2-form-bed, .icon2-form-time, .icon2-form-star, .icon2-form-seat, .icon2-form-hotel, .icon2-form-car, .icon2-form-plane, .icon2-form-pax, .icon2-form-box, .icon2-no-star-light-large, .icon2-no-star-large, .icon2-star-large.active, .star-group .icon2-star-large, .icon2-star-large.active:hover, .icon2-star-large, .icon2-confirm-large.disabled, .icon2-confirm-large, .icon2-confirm-large.active, .icon2-info-large, .icon2-pax-adt, .icon2-pax-adt.white, .icon2-pax-chd, .icon2-pax-chd.white, .icon2-pax-inf, .icon2-pax-inf.white, .icon2-pax-senior, .icon2-pax-senior.white, .timeline-point, .icon2-hguide, .icon2-hguide.white, .icon2-departure, .icon2-arrival, .icon2-pointer-right, .icon2-thin-prev, .icon2-thin-next, .icon2-heart-compare, .icon2-heart-compare.active, .icon2-check-compare, .active > .icon2-check-compare, .icon2-check-compare.active, .icon2-circle-compare, .icon2-circle-compare.active, .icon2-view-list, .icon2-view-list:hover, .icon2-view-list.white, .icon2-view-detail, .icon2-view-detail:hover, .icon2-view-detail.white, .icon2-view-tile, .icon2-view-tile:hover, .icon2-view-tile.white, .icon2-view-graph, .icon2-view-graph:hover, .icon2-view-graph.white, .icon2-special-offer, .icon2-full-view, .showcase-slider-grey-pager .showcase-slider-page, .icon2-slider-page-gray, .showcase-slider-page, .showcase-slider-grey-pager .cycle-pager-active .showcase-slider-page, .icon2-slider-page-gray.active, .cycle-pager-active .showcase-slider-page, .icon2-day, .icon2-showcase-prev, .icon2-showcase-next, .icon2-showcase-prev.active, .icon2-showcase-prev:hover, .icon2-showcase-next.active, .icon2-showcase-next:hover, .icon2-showcase-prev.white, .icon2-showcase-next.white, .icon2-target, .icon2-target.white, .icon2-fullscreen-in, .icon2-fullscreen-in.white, .icon2-fullscreen-exit, .icon2-fullscreen-exit.white, .icon2-widget-car, .icon2-widget-destination, .icon2-widget-plane, .icon2-widget-fly, .icon2-widget-package, .icon2-widget-bed, .icon2-widget-bus, .icon2-widget-ticket, .icon2-widget-briefcase, .icon2-widget-cruise, .icon2-star-large:hover, .active > .icon2-view-tile, .active > .icon2-view-detail, .active > .icon2-view-list, .active > .icon2-view-graph {
+    background: rgba(0, 0, 0, 0) url("../images/base-sprite2.png") no-repeat scroll center center;
+    box-sizing: border-box;
+    display: inline-block;
+    outline: medium none;
+    vertical-align: middle;
+}
+.icon2-tree-single-point {
+    background-position: 0 0;
+    height: 9px;
+    width: 9px;
+}
+.icon2-tree-multi-point {
+    background-position: 0 -18px;
+    height: 9px;
+    width: 9px;
+}
+.icon2-toggle.collapse {
+    background-position: -19px 0;
+    height: 10px;
+    width: 10px;
+}
+.icon2-toggle.expand {
+    background-position: -19px -19px;
+    height: 10px;
+    width: 10px;
+}
+.icon2-arrow-arrive {
+    background-position: -19px -40px;
+    height: 10px;
+    width: 10px;
+}
+.icon2-arrow-departure {
+    background-position: -19px -60px;
+    height: 10px;
+    width: 10px;
+}
+.icon2-dropdown-toggle-small {
+    background-position: -19px -80px;
+    height: 11px;
+    width: 10px;
+}
+.icon2-dropdown-toggle-small.white {
+    background-position: -19px -100px;
+    height: 11px;
+    width: 10px;
+}
+.icon2-dropdown-toggle-wide {
+    background-position: -19px -120px;
+    height: 13px;
+    width: 10px;
+}
+.icon2-dropdown-toggle-wide.white {
+    background-position: -19px -141px;
+    height: 13px;
+    width: 10px;
+}
+.icon2-cards {
+    background-position: -39px 0;
+    height: 14px;
+    width: 14px;
+}
+.icon2-bed {
+    background-position: -39px -24px;
+    height: 14px;
+    width: 14px;
+}
+.icon2-bed.white {
+    background-position: -39px -48px;
+    height: 15px;
+    width: 15px;
+}
+.icon2-bus {
+    background-position: -39px -72px;
+    height: 14px;
+    width: 14px;
+}
+.icon2-bus.white {
+    background-position: -39px -96px;
+    height: 15px;
+    width: 15px;
+}
+.icon2-left-jump {
+    background-position: -39px -121px;
+    height: 14px;
+    width: 14px;
+}
+.icon2-left-jump.white {
+    background-position: -39px -145px;
+    height: 14px;
+    width: 14px;
+}
+.icon2-circle.ok {
+    background-position: -39px -169px;
+    height: 14px;
+    width: 14px;
+}
+.icon2-circle.waiting {
+    background-position: -39px -193px;
+    height: 14px;
+    width: 14px;
+}
+.icon2-compare {
+    background-position: -39px -216px;
+    height: 14px;
+    width: 14px;
+}
+.icon2-compare.white {
+    background-position: -39px -240px;
+    height: 14px;
+    width: 14px;
+}
+.icon2-settings {
+    background-position: -39px -265px;
+    height: 14px;
+    width: 14px;
+}
+.icon2-settings.white {
+    background-position: -39px -289px;
+    height: 14px;
+    width: 14px;
+}
+.icon2-c-minus {
+    background-position: -39px -313px;
+    height: 14px;
+    width: 14px;
+}
+.icon2-c-plus {
+    background-position: -39px -337px;
+    height: 14px;
+    width: 14px;
+}
+.icon2-thick-prev {
+    background-position: -39px -361px;
+    height: 14px;
+    width: 14px;
+}
+.icon2-thick-next {
+    background-position: -39px -385px;
+    height: 14px;
+    width: 14px;
+}
+.icon2-thick-prev.white {
+    background-position: -39px -409px;
+    height: 14px;
+    width: 14px;
+}
+.icon2-thick-next.white {
+    background-position: -39px -433px;
+    height: 14px;
+    width: 14px;
+}
+.icon2-datepicker {
+    background-position: -63px 0;
+    height: 16px;
+    width: 16px;
+}
+.icon2-clean {
+    background-position: -63px -26px;
+    height: 16px;
+    width: 16px;
+}
+.icon2-document {
+    background-position: -63px -52px;
+    height: 16px;
+    width: 16px;
+}
+.icon2-documents {
+    background-position: -63px -78px;
+    height: 16px;
+    width: 16px;
+}
+.icon2-vouchers {
+    background-position: -63px -104px;
+    height: 16px;
+    width: 16px;
+}
+.icon2-success {
+    background-position: -63px -130px;
+    height: 16px;
+    width: 16px;
+}
+.icon2-x {
+    background-position: -63px -156px;
+    height: 16px;
+    width: 16px;
+}
+.icon2-no-star-light-small {
+    background-position: -63px -182px;
+    height: 16px;
+    width: 16px;
+}
+.icon2-no-star-small {
+    background-position: -63px -208px;
+    height: 16px;
+    width: 16px;
+}
+.icon2-star-small {
+    background-position: -63px -234px;
+    height: 16px;
+    width: 16px;
+}
+.icon2-dropdown-toggle {
+    background-position: -63px -260px;
+    height: 16px;
+    width: 16px;
+}
+.icon2-dropdown-toggle.white {
+    background-position: -63px -286px;
+    height: 16px;
+    width: 16px;
+}
+.icon2-info {
+    background-position: -89px 0;
+    height: 18px;
+    width: 18px;
+}
+.icon2-info.white {
+    background-position: -89px -29px;
+    height: 18px;
+    width: 18px;
+}
+.icon2-edit-doc {
+    background-position: -89px -56px;
+    height: 18px;
+    width: 18px;
+}
+.icon2-find {
+    background-position: -89px -84px;
+    height: 18px;
+    width: 18px;
+}
+.icon2-radio {
+    background-position: -89px -112px;
+    height: 18px;
+    margin-top: -1px;
+    width: 18px;
+}
+.icon2-radio.checked, .active > .icon2-radio {
+    background-position: -89px -140px;
+}
+.icon2-up {
+    background-position: -89px -168px;
+    height: 18px;
+    width: 18px;
+}
+.icon2-down {
+    background-position: -89px -196px;
+    height: 18px;
+    width: 18px;
+}
+.icon2-price-tax {
+    background-position: -89px -224px;
+    height: 18px;
+    width: 18px;
+}
+.icon2-confirm {
+    background-position: -89px -252px;
+    height: 18px;
+    width: 18px;
+}
+.icon2-cancel {
+    background-position: -89px -280px;
+    height: 18px;
+    width: 18px;
+}
+.icon2-checkbox {
+    background-position: -89px -308px;
+    height: 18px;
+    width: 18px;
+}
+input[type="checkbox"]:checked + .icon2-checkbox {
+    background-position: -89px -336px;
+}
+.icon2-form-package {
+    background-position: -117px -1px;
+    height: 20px;
+    width: 22px;
+}
+.icon2-form-list {
+    background-position: -117px -33px;
+    height: 20px;
+    width: 22px;
+}
+.icon2-form-calendar {
+    background-position: -117px -65px;
+    height: 20px;
+    width: 22px;
+}
+.icon2-form-destination {
+    background-position: -117px -97px;
+    height: 20px;
+    width: 22px;
+}
+.icon2-form-pin {
+    background-position: -117px -129px;
+    height: 20px;
+    width: 22px;
+}
+.icon2-form-food {
+    background-position: -117px -161px;
+    height: 20px;
+    width: 22px;
+}
+.icon2-form-bed {
+    background-position: -117px -193px;
+    height: 20px;
+    width: 22px;
+}
+.icon2-form-time {
+    background-position: -117px -225px;
+    height: 20px;
+    width: 22px;
+}
+.icon2-form-star {
+    background-position: -117px -257px;
+    height: 20px;
+    width: 22px;
+}
+.icon2-form-seat {
+    background-position: -117px -289px;
+    height: 20px;
+    width: 22px;
+}
+.icon2-form-hotel {
+    background-position: -117px -321px;
+    height: 20px;
+    width: 22px;
+}
+.icon2-form-car {
+    background-position: -117px -353px;
+    height: 20px;
+    width: 22px;
+}
+.icon2-form-plane {
+    background-position: -117px -385px;
+    height: 20px;
+    width: 22px;
+}
+.icon2-form-pax {
+    background-position: -117px -417px;
+    height: 20px;
+    width: 22px;
+}
+.icon2-form-box {
+    background-position: -117px -449px;
+    height: 20px;
+    width: 22px;
+}
+.icon2-no-star-light-large {
+    background-position: -149px 0;
+    height: 24px;
+    width: 24px;
+}
+.icon2-no-star-large, .icon2-star-large:hover {
+    background-position: -149px -34px;
+    height: 24px;
+    width: 24px;
+}
+.icon2-star-large.active, .star-group .icon2-star-large {
+    background-position: -149px -68px;
+    height: 24px;
+    width: 24px;
+}
+.icon2-star-large.active:hover {
+    background-position: -149px -102px;
+}
+.icon2-star-large {
+    background-position: -149px -136px;
+    height: 24px;
+    width: 24px;
+}
+.icon2-confirm-large.disabled {
+    background-position: -149px -170px;
+    height: 24px;
+    width: 24px;
+}
+.icon2-confirm-large {
+    background-position: -149px -204px;
+    height: 24px;
+    width: 24px;
+}
+.icon2-confirm-large.active {
+    background-position: -149px -238px;
+    height: 24px;
+    width: 24px;
+}
+.icon2-info-large {
+    background-position: -149px -272px;
+    height: 24px;
+    width: 24px;
+}
+.icon2-pax-adt {
+    background-position: -183px 0;
+    height: 22px;
+    width: 12px;
+}
+.icon2-pax-adt.white {
+    background-position: -201px 0;
+}
+.icon2-pax-chd {
+    background-position: -183px -32px;
+    height: 22px;
+    width: 12px;
+}
+.icon2-pax-chd.white {
+    background-position: -201px -32px;
+}
+.icon2-pax-inf {
+    background-position: -183px -64px;
+    height: 22px;
+    width: 12px;
+}
+.icon2-pax-inf.white {
+    background-position: -201px -64px;
+}
+.icon2-pax-senior {
+    background-position: -183px -96px;
+    height: 22px;
+    width: 12px;
+}
+.icon2-pax-senior.white {
+    background-position: -201px -96px;
+}
+.timeline-point {
+    background-position: -184px -129px;
+    height: 11px;
+    width: 11px;
+}
+.icon2-hguide {
+    background-position: -183px -148px;
+    height: 16px;
+    width: 17px;
+}
+.icon2-hguide.white {
+    background-position: -183px -174px;
+}
+.icon2-departure {
+    background-position: -183px -196px;
+    height: 21px;
+    width: 21px;
+}
+.icon2-arrival {
+    background-position: -183px -227px;
+    height: 21px;
+    width: 21px;
+}
+.icon2-pointer-right {
+    background-position: -202px -256px;
+    height: 13px;
+    width: 20px;
+}
+.icon2-thin-prev {
+    background-position: -182px -258px;
+    height: 13px;
+    width: 10px;
+}
+.icon2-thin-next {
+    background-position: -182px -279px;
+    height: 13px;
+    width: 10px;
+}
+.icon2-heart-compare {
+    background-position: -184px -299px;
+    height: 20px;
+    width: 20px;
+}
+.icon2-heart-compare.active {
+    background-position: -184px -327px;
+    height: 20px;
+    width: 20px;
+}
+.icon2-check-compare {
+    background-position: -184px -356px;
+    height: 18px;
+    width: 18px;
+}
+.icon2-check-compare:hover {
+    background-position: -212px -356px;
+}
+.active > .icon2-check-compare, .icon2-check-compare.active {
+    background-position: -184px -384px;
+    height: 18px;
+    width: 18px;
+}
+.icon2-circle-compare {
+    background-position: -184px -412px;
+    height: 18px;
+    width: 18px;
+}
+.icon2-circle-compare.active {
+    background-position: -184px -440px;
+    height: 18px;
+    width: 18px;
+}
+.icon2-view-list {
+    background-position: -224px 0;
+    height: 17px;
+    width: 21px;
+}
+.icon2-view-list:hover, .active > .icon2-view-list {
+    background-position: -224px -26px;
+}
+.icon2-view-list.white {
+    background-position: -224px -52px;
+}
+.icon2-view-detail {
+    background-position: -253px 0;
+    height: 17px;
+    width: 21px;
+}
+.icon2-view-detail:hover, .active > .icon2-view-detail {
+    background-position: -253px -26px;
+}
+.icon2-view-detail.white {
+    background-position: -253px -52px;
+}
+.icon2-view-tile {
+    background-position: -282px 0;
+    height: 17px;
+    width: 21px;
+}
+.icon2-view-tile:hover, .active > .icon2-view-tile {
+    background-position: -282px -26px;
+}
+.icon2-view-tile.white {
+    background-position: -282px -52px;
+}
+.icon2-view-graph {
+    background-position: -309px 0;
+    height: 17px;
+    width: 21px;
+}
+.icon2-view-graph:hover, .active > .icon2-view-graph {
+    background-position: -309px -26px;
+}
+.icon2-view-graph.white {
+    background-position: -309px -52px;
+}
+.icon2-special-offer {
+    background-position: -224px -78px;
+    height: 19px;
+    width: 90px;
+}
+.icon2-full-view {
+    background-position: -224px -173px;
+    height: 32px;
+    width: 32px;
+}
+.showcase-slider-grey-pager .showcase-slider-page, .icon2-slider-page-gray {
+    background-position: -267px -172px;
+    height: 8px;
+    width: 8px;
+}
+.showcase-slider-page {
+    background-position: -267px -193px;
+}
+.showcase-slider-grey-pager .cycle-pager-active .showcase-slider-page, .icon2-slider-page-gray.active {
+    background-position: -284px -171px;
+    height: 11px;
+    width: 11px;
+}
+.cycle-pager-active .showcase-slider-page {
+    background-position: -282px -189px;
+}
+.icon2-day {
+    background-position: -271px -214px;
+    height: 25px;
+    width: 25px;
+}
+.icon2-showcase-prev {
+    background-position: -223px -216px;
+    height: 28px;
+    width: 18px;
+}
+.icon2-showcase-prev.disabled {
+    cursor: default;
+    opacity: 0.4;
+}
+.icon2-showcase-prev.disabled:hover {
+    background-position: -223px -216px;
+    cursor: default;
+}
+.icon2-showcase-next {
+    background-position: -245px -216px;
+    height: 28px;
+    width: 18px;
+}
+.icon2-showcase-next.disabled {
+    cursor: default;
+    opacity: 0.4;
+}
+.icon2-showcase-next.disabled:hover {
+    background-position: -245px -216px;
+    cursor: default;
+}
+.icon2-showcase-prev.active, .icon2-showcase-prev:hover {
+    background-position: -223px -253px;
+}
+.icon2-showcase-next.active, .icon2-showcase-next:hover {
+    background-position: -245px -253px;
+}
+.icon2-showcase-prev.white {
+    background-position: -223px -290px;
+}
+.icon2-showcase-prev.white:hover {
+    background-position: -223px -216px;
+    cursor: default;
+}
+.icon2-showcase-next.white {
+    background-position: -245px -290px;
+}
+.icon2-showcase-next.white:hover {
+    background-position: -245px -216px;
+    cursor: default;
+}
+.icon2-target {
+    background-position: -270px -249px;
+    height: 18px;
+    width: 18px;
+}
+.icon2-target.white {
+    background-position: -297px -249px;
+}
+.icon2-fullscreen-in {
+    background-position: -270px -273px;
+    height: 18px;
+    width: 18px;
+}
+.icon2-fullscreen-in.white {
+    background-position: -297px -273px;
+}
+.icon2-fullscreen-exit {
+    background-position: -270px -294px;
+    height: 18px;
+    width: 18px;
+}
+.icon2-fullscreen-exit.white {
+    background-position: -297px -294px;
+}
+.icon2-widget-car {
+    background-position: 0 -480px;
+    height: 24px;
+    width: 24px;
+}
+.icon2-widget-destination {
+    background-position: -34px -480px;
+    height: 24px;
+    width: 24px;
+}
+.icon2-widget-plane {
+    background-position: -68px -480px;
+    height: 24px;
+    width: 24px;
+}
+.icon2-widget-fly {
+    background-position: -102px -480px;
+    height: 24px;
+    width: 24px;
+}
+.icon2-widget-package {
+    background-position: -136px -480px;
+    height: 24px;
+    width: 24px;
+}
+.icon2-widget-bed {
+    background-position: -170px -480px;
+    height: 24px;
+    width: 24px;
+}
+.icon2-widget-bus {
+    background-position: -204px -480px;
+    height: 24px;
+    width: 24px;
+}
+.icon2-widget-ticket {
+    background-position: -238px -480px;
+    height: 24px;
+    width: 24px;
+}
+.icon2-widget-briefcase {
+    background-position: -272px -480px;
+    height: 24px;
+    width: 24px;
+}
+.icon2-widget-cruise {
+    background-position: 0 -514px;
+    height: 24px;
+    width: 24px;
+}
+[class*="icon-input-"] {
+    text-indent: 25px;
+}
+.icon-input-pin.ui-autocomplete-loading {
+    background-image: url("/images/icon-input-pin.png"), url("/images/searching.gif");
+    background-position: 1px center, right center;
+}
+.icon-input-calendar {
+    background: rgba(0, 0, 0, 0) url("../images/icon-input-calendar.png") no-repeat scroll 1px center;
+}
+.icon-input-destination {
+    background: rgba(0, 0, 0, 0) url("../images/icon-input-destination.png") no-repeat scroll 1px center;
+}
+.icon-input-food {
+    background: rgba(0, 0, 0, 0) url("../images/icon-input-food.png") no-repeat scroll 2px center;
+}
+.icon-input-hotel {
+    background: rgba(0, 0, 0, 0) url("../images/icon-input-hotel.png") no-repeat scroll 2px center;
+}
+.icon-input-list {
+    background: rgba(0, 0, 0, 0) url("../images/icon-input-list.png") no-repeat scroll 2px center;
+}
+.icon-input-package {
+    background: rgba(0, 0, 0, 0) url("../images/icon-input-package.png") no-repeat scroll 2px center;
+}
+.icon-input-pin {
+    background: rgba(0, 0, 0, 0) url("../images/icon-input-pin.png") no-repeat scroll 1px center;
+}
+.icon-input-rentacar {
+    background: rgba(0, 0, 0, 0) url("../images/icon-input-rentacar.png") no-repeat scroll 1px center;
+}
+.icon-input-room {
+    background: rgba(0, 0, 0, 0) url("../images/icon-input-room.png") no-repeat scroll 2px center;
+}
+.icon-input-seat {
+    background: rgba(0, 0, 0, 0) url("../images/icon-input-seat.png") no-repeat scroll 2px center;
+}
+.icon-input-star {
+    background: rgba(0, 0, 0, 0) url("../images/icon-input-star.png") no-repeat scroll 2px center;
+}
+.icon-input-time {
+    background: rgba(0, 0, 0, 0) url("../images/icon-input-time.png") no-repeat scroll 2px center;
+}
+.icon-input-plane {
+    background: rgba(0, 0, 0, 0) url("../images/icon-input-plane.png") no-repeat scroll 2px center;
+}
+.icon-input-pax {
+    background: rgba(0, 0, 0, 0) url("../images/icon-input-pax.png") no-repeat scroll 2px center;
+}
+.icon-input-box {
+    background: rgba(0, 0, 0, 0) url("../images/icon-input-box.png") no-repeat scroll 2px center;
+}
+.icons, .icon-cards, .icon-document, .icon-documents, .icon-vouchers, .icon-datepicker, .icon-radio, .icon-radio.checked, .active > .icon-radio, .icon-up, .icon-down, .icon-checkbox, .icon-checkbox.checked, .active > .icon-checkbox, .icon-thick-prev, .icon-thick-next, .icon-info, .icon-info.white, .icon-form-package, .icon-form-list, .icon-form-calendar, .icon-form-destination, .icon-form-pin, .icon-form-food, .icon-form-bed, .icon-form-time, .icon-form-star, .icon-form-seat, .icon-form-hotel, .icon-form-car, .icon-form-plane, .icon-form-pax, .icon-form-box, .icon-check-compare, .icon-check-compare.active, .active > .icon-check-compare, .icon-circle-compare, .icon-circle-compare.active, .active > .icon-circle-compare, .icon-day-circle, .icon-special-offer, .icon-package-checked, .isValid .icon-package-checked, .expanded .icon-package-checked, .icon-info-large, .icon-widget-cruise, .icon-widget-car, .icon-widget-destination, .icon-widget-plane, .icon-widget-fly, .icon-widget-package, .icon-widget-bed, .icon-widget-bus, .icon-widget-ticket, .icon-widget-briefcase,  
+.icon-widget-cruise.blue, .icon-widget-cruise2.blue, .icon-widget-car.blue, .icon-widget-fly.blue, .icon-widget-destination.blue, .icon-widget-catalog.blue, .icon-widget-package.blue, .icon-widget-bus.blue, .icon-widget-bed.blue, .icon-widget-ticket.blue, .icon-widget-insurance.blue,
+.icon-widget-cruise.white, .icon-widget-cruise2.white, .icon-widget-car.white, .icon-widget-fly.white, .icon-widget-destination.white, .icon-widget-catalog.white, .icon-widget-package.white, .icon-widget-bus.white, .icon-widget-bed.white, .icon-widget-ticket.white, .icon-widget-insurance.white{
+    background: rgba(0, 0, 0, 0) url("../images/base-sprite.png") no-repeat scroll center center;
+    box-sizing: border-box;
+    display: inline-block;
+    outline: medium none;
+    vertical-align: middle;
+}
+.icon-cards {
+    background-position: -10px -7px;
+    height: 14px;
+    width: 14px;
+}
+.icon-document {
+    background-position: -10px -35px;
+    height: 14px;
+    width: 14px;
+}
+.icon-documents {
+    background-position: -10px -59px;
+    height: 16px;
+    width: 15px;
+}
+.icon-vouchers {
+    background-position: -10px -86px;
+    height: 15px;
+    width: 16px;
+}
+.icon-datepicker {
+    background-position: -37px -7px;
+    height: 16px;
+    width: 16px;
+}
+.icon-radio {
+    background-position: -36px -30px;
+    height: 18px;
+    width: 18px;
+}
+.icon-radio.checked, .active > .icon-radio {
+    background-position: -36px -58px;
+    height: 18px;
+    width: 18px;
+}
+.icon-up {
+    background-position: -36px -86px;
+    height: 18px;
+    width: 18px;
+}
+.icon-down {
+    background-position: -36px -114px;
+    height: 18px;
+    width: 18px;
+}
+.icon-checkbox {
+    background-position: -36px -142px;
+    height: 18px;
+    width: 18px;
+}
+.icon-checkbox.checked, .active > .icon-checkbox {
+    background-position: -36px -170px;
+    height: 18px;
+    width: 18px;
+}
+.icon-thick-prev {
+    background-position: -36px -197px;
+    height: 14px;
+    width: 14px;
+}
+.icon-thick-next {
+    background-position: -36px -221px;
+    height: 14px;
+    width: 14px;
+}
+.icon-info {
+    background-position: -66px -7px;
+    height: 17px;
+    width: 17px;
+}
+.icon-info.white {
+    background-position: -66px -35px;
+    height: 17px;
+    width: 17px;
+}
+.icon-form-package {
+    background-position: -91px -7px;
+    height: 20px;
+    width: 22px;
+}
+.icon-form-list {
+    background-position: -91px -38px;
+    height: 20px;
+    width: 22px;
+}
+.icon-form-calendar {
+    background-position: -91px -70px;
+    height: 20px;
+    width: 22px;
+}
+.icon-form-destination {
+    background-position: -91px -99px;
+    height: 20px;
+    width: 22px;
+}
+.icon-form-pin {
+    background-position: -91px -131px;
+    height: 20px;
+    width: 22px;
+}
+.icon-form-food {
+    background-position: -91px -163px;
+    height: 20px;
+    width: 22px;
+}
+.icon-form-bed {
+    background-position: -91px -197px;
+    height: 20px;
+    width: 22px;
+}
+.icon-form-time {
+    background-position: -91px -227px;
+    height: 20px;
+    width: 22px;
+}
+.icon-form-star {
+    background-position: -122px -7px;
+    height: 20px;
+    width: 22px;
+}
+.icon-form-seat {
+    background-position: -122px -39px;
+    height: 20px;
+    width: 22px;
+}
+.icon-form-hotel {
+    background-position: -122px -73px;
+    height: 20px;
+    width: 22px;
+}
+.icon-form-car {
+    background-position: -122px -103px;
+    height: 20px;
+    width: 22px;
+}
+.icon-form-plane {
+    background-position: -122px -137px;
+    height: 20px;
+    width: 22px;
+}
+.icon-form-pax {
+    background-position: -122px -169px;
+    height: 20px;
+    width: 22px;
+}
+.icon-form-box {
+    background-position: -122px -200px;
+    height: 20px;
+    width: 22px;
+}
+.icon-check-compare {
+    background-position: -154px -7px;
+    height: 18px;
+    width: 18px;
+}
+.icon-check-compare:hover {
+    background-position: -182px -7px;
+}
+.icon-check-compare.active, .active > .icon-check-compare {
+    background-position: -154px -35px;
+    height: 18px;
+    width: 18px;
+}
+.icon-check-compare.active:hover, .active > .icon-check-compare:hover {
+    background-position: -182px -35px;
+}
+.icon-circle-compare {
+    background-position: -154px -63px;
+    height: 18px;
+    width: 18px;
+}
+.icon-circle-compare.active, .active > .icon-circle-compare {
+    background-position: -154px -91px;
+    height: 18px;
+    width: 18px;
+}
+.icon-day-circle {
+    background-position: -210px -7px;
+    height: 25px;
+    width: 25px;
+}
+.icon-special-offer {
+    background-position: -154px -137px;
+    height: 19px;
+    width: 90px;
+}
+.icon-package-checked {
+    background-position: -245px -7px;
+    height: 22px;
+    width: 22px;
+}
+.isValid .icon-package-checked {
+    background-position: -245px -41px;
+    height: 22px;
+    width: 22px;
+}
+.expanded .icon-package-checked {
+    background-position: -245px -75px;
+    height: 22px;
+    width: 22px;
+}
+.icon-info-large {
+    background-position: -245px -109px;
+    height: 22px;
+    width: 22px;
+}
+.icon-widget-cruise {
+    background-position: -7px -256px;
+    height: 24px;
+    width: 24px;
+}
+.icon-widget-car {
+    background-position: -42px -256px;
+    height: 24px;
+    width: 24px;
+}
+.icon-widget-destination {
+    background-position: -77px -256px;
+    height: 24px;
+    width: 24px;
+}
+.icon-widget-plane {
+    background-position: -110px -256px;
+    height: 24px;
+    width: 24px;
+}
+.icon-widget-fly {
+    background-position: -147px -256px;
+    height: 24px;
+    width: 24px;
+}
+.icon-widget-package {
+    background-position: -178px -256px;
+    height: 24px;
+    width: 24px;
+}
+.icon-widget-bed {
+    background-position: -212px -256px;
+    height: 24px;
+    width: 24px;
+}
+.icon-widget-bus {
+    background-position: -246px -256px;
+    height: 24px;
+    width: 24px;
+}
+.icon-widget-ticket {
+    background-position: -280px -256px;
+    height: 24px;
+    width: 24px;
+}
+.icon-widget-briefcase {
+    background-position: -314px -256px;
+    height: 24px;
+    width: 24px;
+}
+/*Blue tab icons*/
+.icon-widget-cruise.blue {
+    background-position: -15px -337px;
+    width:32px;
+    height: 32px;
+}
+.icon-widget-cruise2.blue{
+    background-position: -57px -337px;
+    width:32px;
+    height: 32px;
+}
+.icon-widget-car.blue{
+    background-position: -99px -337px;
+    width:32px;
+    height: 32px;
+}
+.icon-widget-fly.blue{
+    background-position: -15px -298px;
+    width:32px;
+    height: 32px;
+}
+.icon-widget-destination.blue{
+    background-position: -57px -298px;
+    width:32px;
+    height: 32px;
+}
+.icon-widget-catalog.blue{
+    background-position: -99px -298px;
+    width:32px;
+    height: 32px;
+}
+.icon-widget-package.blue{
+    background-position: -141px -298px;
+    width:32px;
+    height: 32px;
+}
+.icon-widget-bus.blue{
+    background-position: -183px -298px;
+    width:32px;
+    height: 32px;
+}
+.icon-widget-bed.blue{
+    background-position: -225px -298px;
+    width:32px;
+    height: 32px;
+}
+.icon-widget-ticket.blue{
+    background-position: -267px -298px;
+    width:32px;
+    height: 32px;
+}
+.icon-widget-insurance.blue{
+    background-position: -310px -297px;
+    width:32px;
+    height: 32px;
+}
+/*White tab icons*/
+.icon-widget-cruise.white {
+    background-position: -15px -421px;
+    width:32px;
+    height: 32px;
+}
+.icon-widget-cruise2.white{
+    background-position: -57px -421px;
+    width:32px;
+    height: 32px;
+}
+.icon-widget-car.white{
+    background-position: -99px -421px;
+    width:32px;
+    height: 32px;
+}
+.icon-widget-fly.white{
+    background-position: -15px -379px;
+    width:32px;
+    height: 32px;
+}
+.icon-widget-destination.white{
+    background-position: -57px -379px;
+    width:32px;
+    height: 32px;
+}
+.icon-widget-catalog.white{
+    background-position: -99px -379px;
+    width:32px;
+    height: 32px;
+}
+.icon-widget-package.white{
+    background-position: -141px -379px;
+    width:32px;
+    height: 32px;
+}
+.icon-widget-bus.white{
+    background-position: -183px -379px;
+    width:32px;
+    height: 32px;
+}
+.icon-widget-bed.white{
+    background-position: -225px -379px;
+    width:32px;
+    height: 32px;
+}
+.icon-widget-ticket.white{
+    background-position: -267px -379px;
+    width:32px;
+    height: 32px;
+}
+.icon-widget-insurance.white{
+    background-position: -310px -379px;
+    width:32px;
+    height: 32px;
+}
+
+@font-face {
+    font-family: "icon-font";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../icon-font/icon-font.eot?im0i4j#iefix") format("embedded-opentype"), url("../icon-font/icon-font.ttf?im0i4j") format("truetype"), url("../icon-font/icon-font.woff?im0i4j") format("woff"), url("../icon-font/icon-font.svg?im0i4j#icon-font") format("svg");
+}
+i[class^="icon-"], i[class*=" icon-"] {
+    -moz-user-select: none;
+    display: inline-block;
+    font-family: "icon-font" !important;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    text-rendering: optimizelegibility;
+    text-transform: none;
+    vertical-align: middle;
+}
+.icon-12[class*="icon-"] {
+    font-size: 12px;
+}
+.icon-16[class*="icon-"] {
+    font-size: 16px;
+}
+.icon-22[class*="icon-"] {
+    font-size: 22px;
+}
+.icon-24[class*="icon-"] {
+    font-size: 24px;
+}
+.icon-32[class*="icon-"] {
+    font-size: 32px;
+}
+.white {
+    color: #ffffff;
+}
+.icon-font-star::before {
+    content: "";
+}
+.icon-font-pin::before {
+    content: "";
+}
+.icon-font-pointer-right::before {
+    content: "";
+}
+.icon-font-price-tax::before {
+    content: "";
+}
+.icon-font-confirm::before {
+    content: "";
+}
+.icon-font-cancel::before {
+    content: "";
+}
+.icon-font-view-list::before {
+    content: "";
+}
+.icon-font-view-detail::before {
+    content: "";
+}
+.icon-font-view-tile::before {
+    content: "";
+}
+.icon-font-view-graph::before {
+    content: "";
+}
+.icon-font-open-circle::before {
+    content: "";
+}
+.icon-font-burger::before {
+    content: "";
+}
+.icon-font-arrow-left::before {
+    content: "";
+}
+.icon-font-arrow-right::before {
+    content: "";
+}
+.icon-font-open-circle2::before {
+    content: "";
+}
+.icon-font-fullscreen-out::before {
+    content: "";
+}
+.icon-font-fullscreen-in::before {
+    content: "";
+}
+.icon-font-target::before {
+    content: "";
+}
+.icon-font-arrow-left2::before {
+    content: "";
+}
+.icon-font-arrow-right2::before {
+    content: "";
+}
+.icon-font-alert-info::before {
+    content: "";
+}
+.icon-font-alert-error::before {
+    content: "";
+}
+.icon-font-alert-success::before {
+    content: "";
+}
+.icon-font-alert-warning::before {
+    content: "";
+}
+.icon-font-destination::before {
+    content: "";
+}
+.icon-font-send::before {
+    content: "";
+}
+.icon-font-pax-adt1::before {
+    content: "";
+}
+.icon-font-pax-adt::before {
+    content: "";
+}
+.icon-font-pax-chd::before {
+    content: "";
+}
+.icon-font-pax-inf::before {
+    content: "";
+}
+.icon-font-pax-senior::before {
+    content: "";
+}
+.icon-font-open-circle3::before {
+    content: "";
+}
+.icon-font-plane-departure::before {
+    content: "";
+}
+.icon-font-plane-arrive::before {
+    content: "";
+}
+.icon-font-cards::before {
+    content: "";
+}
+.icon-font-bed::before {
+    content: "";
+}
+.icon-font-bus::before {
+    content: "";
+}
+.icon-font-share::before {
+    content: "";
+}
+.icon-font-bullet::before {
+    content: "";
+}
+.icon-font-compare::before {
+    content: "";
+}
+.icon-font-settings::before {
+    content: "";
+}
+.icon-font-minus::before {
+    content: "";
+}
+.icon-font-plus::before {
+    content: "";
+}
+.icon-font-calendar::before {
+    content: "";
+}
+.icon-font-clear::before {
+    content: "";
+}
+.icon-font-info::before {
+    content: "";
+}
+.icon-font-pen::before {
+    content: "";
+}
+.icon-font-search::before {
+    content: "";
+}
+.icon-font-tick::before {
+    content: "";
+}
+.icon-font-cross::before {
+    content: "";
+}
+.icon-font-star2::before {
+    content: "";
+}
+.icon-font-dropdown-toggle::before {
+    content: "";
+}
+.icon-font-arrow-left3::before {
+    content: "";
+}
+.icon-font-arrow-right3::before {
+    content: "";
+}
+.icon-home::before {
+    content: "";
+}
+.icon-home2::before {
+    content: "";
+}
+.icon-home3::before {
+    content: "";
+}
+.icon-office::before {
+    content: "";
+}
+.icon-newspaper::before {
+    content: "";
+}
+.icon-pencil::before {
+    content: "";
+}
+.icon-pencil2::before {
+    content: "";
+}
+.icon-quill::before {
+    content: "";
+}
+.icon-pen::before {
+    content: "";
+}
+.icon-blog::before {
+    content: "";
+}
+.icon-eyedropper::before {
+    content: "";
+}
+.icon-droplet::before {
+    content: "";
+}
+.icon-paint-format::before {
+    content: "";
+}
+.icon-image::before {
+    content: "";
+}
+.icon-images::before {
+    content: "";
+}
+.icon-file-empty::before {
+    content: "";
+}
+.icon-files-empty::before {
+    content: "";
+}
+.icon-file-text2::before {
+    content: "";
+}
+.icon-stack::before {
+    content: "";
+}
+.icon-folder::before {
+    content: "";
+}
+.icon-folder-open::before {
+    content: "";
+}
+.icon-map::before {
+    content: "";
+}
+.icon-map2::before {
+    content: "";
+}
+.icon-undo2::before {
+    content: "";
+}
+.icon-redo2::before {
+    content: "";
+}
+.icon-bubble::before {
+    content: "";
+}
+.icon-bubbles::before {
+    content: "";
+}
+.icon-bubbles2::before {
+    content: "";
+}
+.icon-bubble2::before {
+    content: "";
+}
+.icon-bubbles3::before {
+    content: "";
+}
+.icon-bubbles4::before {
+    content: "";
+}
+.icon-user::before {
+    content: "";
+}
+.icon-users::before {
+    content: "";
+}
+.icon-user-plus::before {
+    content: "";
+}
+.icon-user-minus::before {
+    content: "";
+}
+.icon-user-check::before {
+    content: "";
+}
+.icon-user-tie::before {
+    content: "";
+}
+.icon-quotes-left::before {
+    content: "";
+}
+.icon-quotes-right::before {
+    content: "";
+}
+.icon-zoom-in::before {
+    content: "";
+}
+.icon-zoom-out::before {
+    content: "";
+}
+.icon-enlarge::before {
+    content: "";
+}
+.icon-shrink::before {
+    content: "";
+}
+.icon-enlarge2::before {
+    content: "";
+}
+.icon-shrink2::before {
+    content: "";
+}
+.icon-equalizer::before {
+    content: "";
+}
+.icon-equalizer2::before {
+    content: "";
+}
+.icon-cog::before {
+    content: "";
+}
+.icon-cogs::before {
+    content: "";
+}
+.icon-pie-chart::before {
+    content: "";
+}
+.icon-stats-dots::before {
+    content: "";
+}
+.icon-stats-bars::before {
+    content: "";
+}
+.icon-stats-bars2::before {
+    content: "";
+}
+.icon-spoon-knife::before {
+    content: "";
+}
+.icon-fire::before {
+    content: "";
+}
+.icon-briefcase::before {
+    content: "";
+}
+.icon-clipboard::before {
+    content: "";
+}
+.icon-list-numbered::before {
+    content: "";
+}
+.icon-list::before {
+    content: "";
+}
+.icon-list2::before {
+    content: "";
+}
+.icon-earth::before {
+    content: "";
+}
+.icon-link::before {
+    content: "";
+}
+.icon-flag::before {
+    content: "";
+}
+.icon-attachment::before {
+    content: "";
+}
+.icon-eye::before {
+    content: "";
+}
+.icon-eye-plus::before {
+    content: "";
+}
+.icon-eye-minus::before {
+    content: "";
+}
+.icon-eye-blocked::before {
+    content: "";
+}
+.icon-bookmark::before {
+    content: "";
+}
+.icon-sun::before {
+    content: "";
+}
+.icon-contrast::before {
+    content: "";
+}
+.icon-brightness-contrast::before {
+    content: "";
+}
+.icon-man::before {
+    content: "";
+}
+.icon-woman::before {
+    content: "";
+}
+.icon-man-woman::before {
+    content: "";
+}
+.icon-neutral::before {
+    content: "";
+}
+.icon-warning::before {
+    content: "";
+}
+.icon-notification::before {
+    content: "";
+}
+.icon-question::before {
+    content: "";
+}
+.icon-plus::before {
+    content: "";
+}
+.icon-minus::before {
+    content: "";
+}
+.icon-info-sign::before {
+    content: "";
+}
+.icon-cancel-circle::before {
+    content: "";
+}
+.icon-blocked::before {
+    content: "";
+}
+.icon-cross::before {
+    content: "";
+}
+.icon-checkmark::before {
+    content: "";
+}
+.icon-checkmark2::before {
+    content: "";
+}
+.icon-enter::before {
+    content: "";
+}
+.icon-exit::before {
+    content: "";
+}
+.icon-play2::before {
+    content: "";
+}
+.icon-pause::before {
+    content: "";
+}
+.icon-stop::before {
+    content: "";
+}
+.icon-previous::before {
+    content: "";
+}
+.icon-next::before {
+    content: "";
+}
+.icon-backward::before {
+    content: "";
+}
+.icon-forward2::before {
+    content: "";
+}
+.icon-play3::before {
+    content: "";
+}
+.icon-pause2::before {
+    content: "";
+}
+.icon-stop2::before {
+    content: "";
+}
+.icon-backward2::before {
+    content: "";
+}
+.icon-forward3::before {
+    content: "";
+}
+.icon-first::before {
+    content: "";
+}
+.icon-last::before {
+    content: "";
+}
+.icon-previous2::before {
+    content: "";
+}
+.icon-next2::before {
+    content: "";
+}
+.icon-eject::before {
+    content: "";
+}
+.icon-volume-high::before {
+    content: "";
+}
+.icon-volume-medium::before {
+    content: "";
+}
+.icon-volume-low::before {
+    content: "";
+}
+.icon-volume-mute::before {
+    content: "";
+}
+.icon-volume-mute2::before {
+    content: "";
+}
+.icon-volume-increase::before {
+    content: "";
+}
+.icon-volume-decrease::before {
+    content: "";
+}
+.icon-loop::before {
+    content: "";
+}
+.icon-loop2::before {
+    content: "";
+}
+.icon-infinite::before {
+    content: "";
+}
+.icon-shuffle::before {
+    content: "";
+}
+.icon-arrow-up-left::before {
+    content: "";
+}
+.icon-arrow-up::before {
+    content: "";
+}
+.icon-arrow-up-right::before {
+    content: "";
+}
+.icon-arrow-right::before {
+    content: "";
+}
+.icon-arrow-down-right::before {
+    content: "";
+}
+.icon-arrow-down::before {
+    content: "";
+}
+.icon-arrow-down-left::before {
+    content: "";
+}
+.icon-arrow-left::before {
+    content: "";
+}
+.icon-arrow-up-left2::before {
+    content: "";
+}
+.icon-arrow-up2::before {
+    content: "";
+}
+.icon-arrow-up-right2::before {
+    content: "";
+}
+.icon-arrow-right2::before {
+    content: "";
+}
+.icon-arrow-down-right2::before {
+    content: "";
+}
+.icon-arrow-down2::before {
+    content: "";
+}
+.icon-arrow-down-left2::before {
+    content: "";
+}
+.icon-arrow-left2::before {
+    content: "";
+}
+.icon-circle-up::before {
+    content: "";
+}
+.icon-circle-right::before {
+    content: "";
+}
+.icon-circle-down::before {
+    content: "";
+}
+.icon-circle-left::before {
+    content: "";
+}
+.icon-tab::before {
+    content: "";
+}
+.icon-move-up::before {
+    content: "";
+}
+.icon-move-down::before {
+    content: "";
+}
+.icon-sort-alpha-asc::before {
+    content: "";
+}
+.icon-sort-alpha-desc::before {
+    content: "";
+}
+.icon-sort-numeric-asc::before {
+    content: "";
+}
+.icon-sort-numberic-desc::before {
+    content: "";
+}
+.icon-sort-amount-asc::before {
+    content: "";
+}
+.icon-sort-amount-desc::before {
+    content: "";
+}
+.icon-command::before {
+    content: "";
+}
+.icon-shift::before {
+    content: "";
+}
+.icon-ctrl::before {
+    content: "";
+}
+.icon-opt::before {
+    content: "";
+}
+.icon-checkbox-checked::before {
+    content: "";
+}
+.icon-checkbox-unchecked::before {
+    content: "";
+}
+.icon-radio-checked::before {
+    content: "";
+}
+.icon-radio-checked2::before {
+    content: "";
+}
+.icon-radio-unchecked::before {
+    content: "";
+}
+.icon-crop::before {
+    content: "";
+}
+.icon-page-break::before {
+    content: "";
+}
+.icon-pagebreak::before {
+    content: "";
+}
+.icon-insert-template::before {
+    content: "";
+}
+.icon-share::before {
+    content: "";
+}
+.icon-new-tab::before {
+    content: "";
+}
+.icon-embed::before {
+    content: "";
+}
+.icon-embed2::before {
+    content: "";
+}
+.icon-terminal::before {
+    content: "";
+}
+.icon-share2::before {
+    content: "";
+}
+.icon-mail4::before {
+    content: "";
+}
+.icon-amazon::before {
+    content: "";
+}
+.icon-google::before {
+    content: "";
+}
+.icon-google2::before {
+    content: "";
+}
+.icon-google3::before {
+    content: "";
+}
+.icon-google-plus::before {
+    content: "";
+}
+.icon-google-plus2::before {
+    content: "";
+}
+.icon-google-plus3::before {
+    content: "";
+}
+.icon-hangouts::before {
+    content: "";
+}
+.icon-google-drive::before {
+    content: "";
+}
+.icon-facebook::before {
+    content: "";
+}
+.icon-facebook2::before {
+    content: "";
+}
+.icon-instagram::before {
+    content: "";
+}
+.icon-whatsapp::before {
+    content: "";
+}
+.icon-spotify::before {
+    content: "";
+}
+.icon-telegram::before {
+    content: "";
+}
+.icon-twitter::before {
+    content: "";
+}
+.icon-vine::before {
+    content: "";
+}
+.icon-vk::before {
+    content: "";
+}
+.icon-sina-weibo::before {
+    content: "";
+}
+.icon-rss::before {
+    content: "";
+}
+.icon-rss2::before {
+    content: "";
+}
+.icon-youtube::before {
+    content: "";
+}
+.icon-youtube2::before {
+    content: "";
+}
+.icon-twitch::before {
+    content: "";
+}
+.icon-vimeo::before {
+    content: "";
+}
+.icon-vimeo2::before {
+    content: "";
+}
+.icon-lanyrd::before {
+    content: "";
+}
+.icon-flickr::before {
+    content: "";
+}
+.icon-flickr2::before {
+    content: "";
+}
+.icon-flickr3::before {
+    content: "";
+}
+.icon-flickr4::before {
+    content: "";
+}
+.icon-dribbble::before {
+    content: "";
+}
+.icon-behance::before {
+    content: "";
+}
+.icon-behance2::before {
+    content: "";
+}
+.icon-deviantart::before {
+    content: "";
+}
+.icon-500px::before {
+    content: "";
+}
+.icon-dropbox::before {
+    content: "";
+}
+.icon-onedrive::before {
+    content: "";
+}
+.icon-github::before {
+    content: "";
+}
+.icon-npm::before {
+    content: "";
+}
+.icon-basecamp::before {
+    content: "";
+}
+.icon-trello::before {
+    content: "";
+}
+.icon-wordpress::before {
+    content: "";
+}
+.icon-joomla::before {
+    content: "";
+}
+.icon-ello::before {
+    content: "";
+}
+.icon-blogger::before {
+    content: "";
+}
+.icon-blogger2::before {
+    content: "";
+}
+.icon-tumblr::before {
+    content: "";
+}
+.icon-tumblr2::before {
+    content: "";
+}
+.icon-appleinc::before {
+    content: "";
+}
+.icon-finder::before {
+    content: "";
+}
+.icon-android::before {
+    content: "";
+}
+.icon-windows::before {
+    content: "";
+}
+.icon-windows8::before {
+    content: "";
+}
+.icon-soundcloud::before {
+    content: "";
+}
+.icon-soundcloud2::before {
+    content: "";
+}
+.icon-skype::before {
+    content: "";
+}
+.icon-reddit::before {
+    content: "";
+}
+.icon-hackernews::before {
+    content: "";
+}
+.icon-wikipedia::before {
+    content: "";
+}
+.icon-linkedin::before {
+    content: "";
+}
+.icon-linkedin2::before {
+    content: "";
+}
+.icon-lastfm::before {
+    content: "";
+}
+.icon-lastfm2::before {
+    content: "";
+}
+.icon-delicious::before {
+    content: "";
+}
+.icon-stumbleupon::before {
+    content: "";
+}
+.icon-stumbleupon2::before {
+    content: "";
+}
+.icon-stackoverflow::before {
+    content: "";
+}
+.icon-pinterest::before {
+    content: "";
+}
+.icon-pinterest2::before {
+    content: "";
+}
+.icon-xing::before {
+    content: "";
+}
+.icon-xing2::before {
+    content: "";
+}
+.icon-flattr::before {
+    content: "";
+}
+.icon-foursquare::before {
+    content: "";
+}
+.icon-yelp::before {
+    content: "";
+}
+.icon-paypal::before {
+    content: "";
+}
+.icon-chrome::before {
+    content: "";
+}
+.icon-firefox::before {
+    content: "";
+}
+.icon-IE::before {
+    content: "";
+}
+.icon-edge::before {
+    content: "";
+}
+.icon-safari::before {
+    content: "";
+}
+.icon-opera::before {
+    content: "";
+}
+.icon-file-pdf::before {
+    content: "";
+}
+.icon-file-openoffice::before {
+    content: "";
+}
+.icon-file-word::before {
+    content: "";
+}
+.icon-file-excel::before {
+    content: "";
+}
+.icon-libreoffice::before {
+    content: "";
+}
+.icon-html-five::before {
+    content: "";
+}
+.icon-html-five2::before {
+    content: "";
+}
+.icon-css3::before {
+    content: "";
+}
+.icon-git::before {
+    content: "";
+}
+.icon-codepen::before {
+    content: "";
+}
+.icon-12.icon-font-open-circle::before {
+    content: "";
+}
+.icon-12.icon-font-toggle::before {
+    content: "";
+}
+.expanded .icon-12.icon-font-toggle::before, .itemSelected .icon-12.icon-font-toggle::before {
+    content: "";
+}
+.icon-12.icon-font-arrow-arrive::before {
+    content: "";
+}
+.icon-12.icon-font-arrow-departure::before {
+    content: "";
+}
+.icon-12.icon-font-expand::before {
+    content: "";
+}
+.icon-12.icon-font-expand2::before {
+    content: "";
+}
+.icon-eye2::before {
+    content: "";
+}
+.icon-paper-clip::before {
+    content: "";
+}
+.icon-mail5::before {
+    content: "";
+}
+.icon-toggle::before {
+    content: "";
+}
+.icon-layout::before {
+    content: "";
+}
+.icon-link2::before {
+    content: "";
+}
+.icon-bell2::before {
+    content: "";
+}
+.icon-lock2::before {
+    content: "";
+}
+.icon-unlock::before {
+    content: "";
+}
+.icon-ribbon::before {
+    content: "";
+}
+.icon-image2::before {
+    content: "";
+}
+.icon-signal::before {
+    content: "";
+}
+.icon-target2::before {
+    content: "";
+}
+.icon-clipboard2::before {
+    content: "";
+}
+.icon-clock3::before {
+    content: "";
+}
+.icon-watch::before {
+    content: "";
+}
+.icon-air-play::before {
+    content: "";
+}
+.icon-camera2::before {
+    content: "";
+}
+.icon-video::before {
+    content: "";
+}
+.icon-disc::before {
+    content: "";
+}
+.icon-printer2::before {
+    content: "";
+}
+.icon-monitor::before {
+    content: "";
+}
+.icon-server::before {
+    content: "";
+}
+.icon-cog2::before {
+    content: "";
+}
+.icon-heart2::before {
+    content: "";
+}
+.icon-paragraph::before {
+    content: "";
+}
+.icon-align-justify::before {
+    content: "";
+}
+.icon-align-left::before {
+    content: "";
+}
+.icon-align-center::before {
+    content: "";
+}
+.icon-align-right::before {
+    content: "";
+}
+.icon-book2::before {
+    content: "";
+}
+.icon-layers::before {
+    content: "";
+}
+.icon-stack2::before {
+    content: "";
+}
+.icon-stack-2::before {
+    content: "";
+}
+.icon-paper::before {
+    content: "";
+}
+.icon-paper-stack::before {
+    content: "";
+}
+.icon-search2::before {
+    content: "";
+}
+.icon-zoom-in2::before {
+    content: "";
+}
+.icon-zoom-out2::before {
+    content: "";
+}
+.icon-reply2::before {
+    content: "";
+}
+.icon-circle-plus::before {
+    content: "";
+}
+.icon-circle-minus::before {
+    content: "";
+}
+.icon-circle-check::before {
+    content: "";
+}
+.icon-circle-cross::before {
+    content: "";
+}
+.icon-square-plus::before {
+    content: "";
+}
+.icon-square-minus::before {
+    content: "";
+}
+.icon-square-check::before {
+    content: "";
+}
+.icon-square-cross::before {
+    content: "";
+}
+.icon-microphone::before {
+    content: "";
+}
+.icon-record::before {
+    content: "";
+}
+.icon-skip-back::before {
+    content: "";
+}
+.icon-rewind::before {
+    content: "";
+}
+.icon-play4::before {
+    content: "";
+}
+.icon-pause3::before {
+    content: "";
+}
+.icon-stop3::before {
+    content: "";
+}
+.icon-fast-forward::before {
+    content: "";
+}
+.icon-skip-forward::before {
+    content: "";
+}
+.icon-shuffle2::before {
+    content: "";
+}
+.icon-repeat::before {
+    content: "";
+}
+.icon-folder2::before {
+    content: "";
+}
+.icon-umbrella::before {
+    content: "";
+}
+.icon-moon::before {
+    content: "";
+}
+.icon-thermometer::before {
+    content: "";
+}
+.icon-drop::before {
+    content: "";
+}
+.icon-sun2::before {
+    content: "";
+}
+.icon-cloud2::before {
+    content: "";
+}
+.icon-cloud-upload2::before {
+    content: "";
+}
+.icon-cloud-download2::before {
+    content: "";
+}
+.icon-upload4::before {
+    content: "";
+}
+.icon-download4::before {
+    content: "";
+}
+.icon-location3::before {
+    content: "";
+}
+.icon-location-2::before {
+    content: "";
+}
+.icon-map3::before {
+    content: "";
+}
+.icon-battery::before {
+    content: "";
+}
+.icon-head::before {
+    content: "";
+}
+.icon-briefcase2::before {
+    content: "";
+}
+.icon-speech-bubble::before {
+    content: "";
+}
+.icon-anchor::before {
+    content: "";
+}
+.icon-globe::before {
+    content: "";
+}
+.icon-box::before {
+    content: "";
+}
+.icon-reload::before {
+    content: "";
+}
+.icon-share3::before {
+    content: "";
+}
+.icon-marquee::before {
+    content: "";
+}
+.icon-marquee-plus::before {
+    content: "";
+}
+.icon-marquee-minus::before {
+    content: "";
+}
+.icon-tag::before {
+    content: "";
+}
+.icon-power2::before {
+    content: "";
+}
+.icon-command2::before {
+    content: "";
+}
+.icon-alt::before {
+    content: "";
+}
+.icon-esc::before {
+    content: "";
+}
+.icon-bar-graph::before {
+    content: "";
+}
+.icon-bar-graph-2::before {
+    content: "";
+}
+.icon-pie-graph::before {
+    content: "";
+}
+.icon-star::before {
+    content: "";
+}
+.icon-arrow-left3::before {
+    content: "";
+}
+.icon-arrow-right3::before {
+    content: "";
+}
+.icon-arrow-up3::before {
+    content: "";
+}
+.icon-arrow-down3::before {
+    content: "";
+}
+.icon-volume::before {
+    content: "";
+}
+.icon-mute::before {
+    content: "";
+}
+.icon-content-right::before {
+    content: "";
+}
+.icon-content-left::before {
+    content: "";
+}
+.icon-grid::before {
+    content: "";
+}
+.icon-grid-2::before {
+    content: "";
+}
+.icon-columns::before {
+    content: "";
+}
+.icon-loader::before {
+    content: "";
+}
+.icon-bag::before {
+    content: "";
+}
+.icon-ban::before {
+    content: "";
+}
+.icon-flag2::before {
+    content: "";
+}
+.icon-trash::before {
+    content: "";
+}
+.icon-expand::before {
+    content: "";
+}
+.icon-contract::before {
+    content: "";
+}
+.icon-maximize::before {
+    content: "";
+}
+.icon-minimize::before {
+    content: "";
+}
+.icon-plus2::before {
+    content: "";
+}
+.icon-minus2::before {
+    content: "";
+}
+.icon-check::before {
+    content: "";
+}
+.icon-cross2::before {
+    content: "";
+}
+.icon-move::before {
+    content: "";
+}
+.icon-delete::before {
+    content: "";
+}
+.icon-menu5::before {
+    content: "";
+}
+.icon-archive::before {
+    content: "";
+}
+.icon-inbox::before {
+    content: "";
+}
+.icon-outbox::before {
+    content: "";
+}
+.icon-file::before {
+    content: "";
+}
+.icon-file-add::before {
+    content: "";
+}
+.icon-file-subtract::before {
+    content: "";
+}
+.icon-help::before {
+    content: "";
+}
+.icon-open::before {
+    content: "";
+}
+.icon-ellipsis::before {
+    content: "";
+}
+.icon-mail-envelope-closed::before {
+    content: "";
+}
+.icon-mail-envelope-closed2::before {
+    content: "";
+}
+.icon-mail-envelope-closed3::before {
+    content: "";
+}
+.icon-mail-envelope-closed4::before {
+    content: "";
+}
+.icon-file-pdf2::before {
+    content: "";
+}
+.icon-file-pdf3::before {
+    content: "";
+}
+.icon-file-html::before {
+    content: "";
+}
+.icon-file-html2::before {
+    content: "";
+}
+.icon-file-css::before {
+    content: "";
+}
+.icon-file-css2::before {
+    content: "";
+}
+.icon-font-bullet.ok {
+    color: #68c14d;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+.icon-font-bullet.waiting {
+    color: #ffb140;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+.icon-glass, .icon-music, .icon-search, .icon-envelope, .icon-heart, .icon-star-empty, .icon-film, .icon-th-large, .icon-th, .icon-th-list, .icon-ok, .icon-remove, .icon-off, .icon-time, .icon-road, .icon-download-alt, .icon-download, .icon-upload, .icon-play, .icon-refresh, .icon-lock, .icon-headphones, .icon-volume-off, .icon-volume-down, .icon-volume-up, .icon-qrcode, .icon-barcode, .icon-tags, .icon-book, .icon-print, .icon-camera, .icon-font, .icon-bold, .icon-italic, .icon-text-height, .icon-text-width, .icon-list-alt, .icon-indent-left, .icon-indent-right, .icon-facetime-video, .icon-picture, .icon-map-marker, .icon-adjust, .icon-tint, .icon-edit,/* .icon-check, */.icon-step-backward, .icon-fast-backward, .icon-play-circle, .icon-forward, .icon-step-forward, .icon-chevron-left, .icon-chevron-right, .icon-plus-sign, .icon-minus-sign, .icon-remove-sign, .icon-ok-sign, .icon-question-sign, .icon-screenshot, .icon-remove-circle, .icon-ok-circle, .icon-ban-circle, .icon-share-alt, .icon-resize-full, .icon-resize-small, .icon-asterisk, .icon-exclamation-sign, .icon-gift, .icon-leaf,/* .icon-fire,*/ .icon-eye-open, .icon-eye-close, .icon-warning-sign, .icon-plane, .icon-calendar, .icon-random, .icon-comment, .icon-magnet, .icon-chevron-up, .icon-chevron-down, .icon-retweet, .icon-shopping-cart, .icon-folder-close, .icon-resize-vertical, .icon-resize-horizontal, .icon-hdd, .icon-bullhorn, .icon-bell, .icon-certificate, .icon-thumbs-up, .icon-thumbs-down, .icon-hand-right, .icon-hand-left, .icon-hand-up, .icon-hand-down, .icon-circle-arrow-right, .icon-circle-arrow-left, .icon-circle-arrow-up, .icon-circle-arrow-down, .icon-wrench, .icon-tasks, .icon-filter, .icon-fullscreen {
+    background-image: url("../images/bootstrap/glyphicons-halflings.png");
+    background-position: 14px 14px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 14px;
+    line-height: 14px;
+    margin-top: 1px;
+    vertical-align: text-top !important;
+    width: 14px;
+}
+.icon-white {
+    background-image: url("../images/bootstrap/glyphicons-halflings-white.png");
+}
+.icon-glass {
+    background-position: 0 0;
+}
+.icon-music {
+    background-position: -24px 0;
+}
+.icon-search {
+    background-position: -48px 0;
+}
+.icon-envelope {
+    background-position: -72px 0;
+}
+.icon-heart {
+    background-position: -96px 0;
+}
+.icon-star-empty {
+    background-position: -144px 0;
+}
+.icon-film {
+    background-position: -192px 0;
+}
+.icon-th-large {
+    background-position: -216px 0;
+}
+.icon-th {
+    background-position: -240px 0;
+}
+.icon-th-list {
+    background-position: -264px 0;
+}
+.icon-ok {
+    background-position: -288px 0;
+}
+.icon-remove {
+    background-position: -312px 0;
+}
+.icon-off {
+    background-position: -384px 0;
+}
+.icon-time {
+    background-position: -48px -24px;
+}
+.icon-road {
+    background-position: -72px -24px;
+}
+.icon-download-alt {
+    background-position: -96px -24px;
+}
+.icon-download {
+    background-position: -120px -24px;
+}
+.icon-upload {
+    background-position: -144px -24px;
+}
+.icon-play-circle {
+    background-position: -192px -24px;
+}
+.icon-refresh {
+    background-position: -240px -24px;
+}
+.icon-list-alt {
+    background-position: -264px -24px;
+}
+.icon-lock {
+    background-position: -287px -24px;
+}
+.icon-headphones {
+    background-position: -336px -24px;
+}
+.icon-volume-off {
+    background-position: -360px -24px;
+}
+.icon-volume-down {
+    background-position: -384px -24px;
+}
+.icon-volume-up {
+    background-position: -408px -24px;
+}
+.icon-qrcode {
+    background-position: -432px -24px;
+}
+.icon-barcode {
+    background-position: -456px -24px;
+}
+.icon-tags {
+    background-position: -25px -48px;
+}
+.icon-book {
+    background-position: -48px -48px;
+}
+.icon-print {
+    background-position: -96px -48px;
+}
+.icon-camera {
+    background-position: -120px -48px;
+}
+.icon-font {
+    background-position: -144px -48px;
+}
+.icon-bold {
+    background-position: -167px -48px;
+}
+.icon-italic {
+    background-position: -192px -48px;
+}
+.icon-text-height {
+    background-position: -216px -48px;
+}
+.icon-text-width {
+    background-position: -240px -48px;
+}
+.icon-indent-left {
+    background-position: -384px -48px;
+}
+.icon-indent-right {
+    background-position: -408px -48px;
+}
+.icon-facetime-video {
+    background-position: -432px -48px;
+}
+.icon-picture {
+    background-position: -456px -48px;
+}
+.icon-map-marker {
+    background-position: -24px -72px;
+}
+.icon-adjust {
+    background-position: -48px -72px;
+}
+.icon-tint {
+    background-position: -72px -72px;
+}
+.icon-edit {
+    background-position: -96px -72px;
+}
+.icon-check {
+    background-position: -144px -72px;
+}
+.icon-step-backward {
+    background-position: -192px -72px;
+}
+.icon-fast-backward {
+    background-position: -216px -72px;
+}
+.icon-play {
+    background-position: -264px -72px;
+}
+.icon-forward {
+    background-position: -336px -72px;
+}
+.icon-step-forward {
+    background-position: -384px -72px;
+}
+.icon-chevron-left {
+    background-position: -432px -72px;
+}
+.icon-chevron-right {
+    background-position: -456px -72px;
+}
+.icon-plus-sign {
+    background-position: 0 -96px;
+}
+.icon-minus-sign {
+    background-position: -24px -96px;
+}
+.icon-remove-sign {
+    background-position: -48px -96px;
+}
+.icon-ok-sign {
+    background-position: -72px -96px;
+}
+.icon-question-sign {
+    background-position: -96px -96px;
+}
+.icon-screenshot {
+    background-position: -144px -96px;
+}
+.icon-remove-circle {
+    background-position: -168px -96px;
+}
+.icon-ok-circle {
+    background-position: -192px -96px;
+}
+.icon-ban-circle {
+    background-position: -216px -96px;
+}
+.icon-share-alt {
+    background-position: -336px -96px;
+}
+.icon-resize-full {
+    background-position: -360px -96px;
+}
+.icon-resize-small {
+    background-position: -384px -96px;
+}
+.icon-asterisk {
+    background-position: -456px -96px;
+}
+.icon-exclamation-sign {
+    background-position: 0 -120px;
+}
+.icon-gift {
+    background-position: -24px -120px;
+}
+.icon-leaf {
+    background-position: -48px -120px;
+}
+.icon-fire {
+    background-position: -72px -120px;
+}
+.icon-eye-open {
+    background-position: -96px -120px;
+}
+.icon-eye-close {
+    background-position: -120px -120px;
+}
+.icon-warning-sign {
+    background-position: -144px -120px;
+}
+.icon-plane {
+    background-position: -168px -120px;
+}
+.icon-calendar {
+    background-position: -192px -120px;
+}
+.icon-random {
+    background-position: -216px -120px;
+    width: 16px;
+}
+.icon-comment {
+    background-position: -240px -120px;
+}
+.icon-magnet {
+    background-position: -264px -120px;
+}
+.icon-chevron-up {
+    background-position: -288px -120px;
+}
+.icon-chevron-down {
+    background-position: -313px -119px;
+}
+.icon-retweet {
+    background-position: -336px -120px;
+}
+.icon-shopping-cart {
+    background-position: -360px -120px;
+}
+.icon-folder-close {
+    background-position: -384px -120px;
+}
+.icon-resize-vertical {
+    background-position: -432px -119px;
+}
+.icon-resize-horizontal {
+    background-position: -456px -118px;
+}
+.icon-hdd {
+    background-position: 0 -144px;
+}
+.icon-bullhorn {
+    background-position: -24px -144px;
+}
+.icon-bell {
+    background-position: -48px -144px;
+}
+.icon-certificate {
+    background-position: -72px -144px;
+}
+.icon-thumbs-up {
+    background-position: -96px -144px;
+}
+.icon-thumbs-down {
+    background-position: -120px -144px;
+}
+.icon-hand-right {
+    background-position: -144px -144px;
+}
+.icon-hand-left {
+    background-position: -168px -144px;
+}
+.icon-hand-up {
+    background-position: -192px -144px;
+}
+.icon-hand-down {
+    background-position: -216px -144px;
+}
+.icon-circle-arrow-right {
+    background-position: -240px -144px;
+}
+.icon-circle-arrow-left {
+    background-position: -264px -144px;
+}
+.icon-circle-arrow-up {
+    background-position: -288px -144px;
+}
+.icon-circle-arrow-down {
+    background-position: -312px -144px;
+}
+.icon-wrench {
+    background-position: -360px -144px;
+}
+.icon-tasks {
+    background-position: -384px -144px;
+}
+.icon-filter {
+    background-position: -408px -144px;
+}
+.icon-fullscreen {
+    background-position: -456px -144px;
+}
